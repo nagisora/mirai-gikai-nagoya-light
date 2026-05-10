@@ -1,11 +1,6 @@
 "use client";
 
-import {
-  ChevronDown,
-  ChevronRight,
-  ExternalLink,
-  RefreshCw,
-} from "lucide-react";
+import { ExternalLink, RefreshCw } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { toast } from "sonner";
@@ -87,7 +82,6 @@ export function NagoyaCouncilSessionImportPanel() {
   const [manualDates, setManualDates] = useState<
     Record<string, { start_date: string; end_date: string }>
   >({});
-  const [isTableOpen, setIsTableOpen] = useState(true);
   const [isLoading, setIsLoading] = useState(false);
   const [isApplying, setIsApplying] = useState(false);
 
@@ -101,7 +95,6 @@ export function NagoyaCouncilSessionImportPanel() {
     try {
       const result = await previewNagoyaCouncilSessionImport();
       setPreview(result);
-      setIsTableOpen(true);
       const defaultIds = result.candidates.filter(canApply).map((c) => c.id);
       setSelectedIds(defaultIds);
       setManualDates({});
@@ -218,136 +211,121 @@ export function NagoyaCouncilSessionImportPanel() {
 
       {preview && (
         <div className="space-y-3">
-          <Button
-            type="button"
-            variant="outline"
-            size="sm"
-            onClick={() => setIsTableOpen((current) => !current)}
-          >
-            {isTableOpen ? (
-              <ChevronDown className="size-4" />
-            ) : (
-              <ChevronRight className="size-4" />
-            )}
-            取得結果 {isTableOpen ? "を隠す" : "を表示"} (
-            {preview.candidates.length}件)
-          </Button>
+          <div className="text-sm font-medium text-gray-700">
+            取得結果 {preview.candidates.length}件
+          </div>
 
-          {isTableOpen && (
-            <Table>
-              <TableHeader>
-                <TableRow>
-                  <TableHead className="w-10" />
-                  <TableHead>状態</TableHead>
-                  <TableHead>定例会</TableHead>
-                  <TableHead>期間</TableHead>
-                  <TableHead>差分</TableHead>
-                  <TableHead>公式URL</TableHead>
-                </TableRow>
-              </TableHeader>
-              <TableBody>
-                {preview.candidates.map((candidate) => {
-                  const next = candidate.next;
-                  const checked = selectedIds.includes(candidate.id);
-                  const manualDate = manualDates[candidate.id];
-                  const canSelect =
-                    canApply(candidate) ||
-                    (canApplyWithManualDate(candidate) &&
-                      Boolean(manualDate?.start_date));
-                  return (
-                    <TableRow key={candidate.id}>
-                      <TableCell>
-                        <Checkbox
-                          checked={checked}
-                          disabled={!canSelect || isApplying}
-                          onCheckedChange={(value) =>
-                            toggleSelected(candidate.id, value === true)
-                          }
-                          aria-label={`${candidate.id} を保存対象にする`}
-                        />
-                      </TableCell>
-                      <TableCell>
-                        <Badge
-                          variant={
-                            candidate.status === "needs_review"
-                              ? "destructive"
-                              : "outline"
-                          }
+          <Table>
+            <TableHeader>
+              <TableRow>
+                <TableHead className="w-10" />
+                <TableHead>状態</TableHead>
+                <TableHead>定例会</TableHead>
+                <TableHead>期間</TableHead>
+                <TableHead>差分</TableHead>
+                <TableHead>公式URL</TableHead>
+              </TableRow>
+            </TableHeader>
+            <TableBody>
+              {preview.candidates.map((candidate) => {
+                const next = candidate.next;
+                const checked = selectedIds.includes(candidate.id);
+                const manualDate = manualDates[candidate.id];
+                const canSelect =
+                  canApply(candidate) ||
+                  (canApplyWithManualDate(candidate) &&
+                    Boolean(manualDate?.start_date));
+                return (
+                  <TableRow key={candidate.id}>
+                    <TableCell>
+                      <Checkbox
+                        checked={checked}
+                        disabled={!canSelect || isApplying}
+                        onCheckedChange={(value) =>
+                          toggleSelected(candidate.id, value === true)
+                        }
+                        aria-label={`${candidate.id} を保存対象にする`}
+                      />
+                    </TableCell>
+                    <TableCell>
+                      <Badge
+                        variant={
+                          candidate.status === "needs_review"
+                            ? "destructive"
+                            : "outline"
+                        }
+                      >
+                        {statusLabels[candidate.status]}
+                      </Badge>
+                    </TableCell>
+                    <TableCell className="font-medium">
+                      {next?.name ?? candidate.existing?.name ?? candidate.name}
+                    </TableCell>
+                    <TableCell>
+                      {next ? (
+                        <div>
+                          <p>
+                            {next.start_date} - {next.end_date ?? "未定"}
+                          </p>
+                          {renderDateNote(candidate)}
+                        </div>
+                      ) : canApplyWithManualDate(candidate) ? (
+                        <div>
+                          <div className="flex items-center gap-2">
+                            <Input
+                              type="date"
+                              value={manualDate?.start_date ?? ""}
+                              onChange={(event) =>
+                                updateManualDate(
+                                  candidate.id,
+                                  "start_date",
+                                  event.target.value
+                                )
+                              }
+                              className="w-36"
+                            />
+                            <span className="text-gray-400">-</span>
+                            <Input
+                              type="date"
+                              value={manualDate?.end_date ?? ""}
+                              onChange={(event) =>
+                                updateManualDate(
+                                  candidate.id,
+                                  "end_date",
+                                  event.target.value
+                                )
+                              }
+                              className="w-36"
+                            />
+                          </div>
+                          {renderDateNote(candidate)}
+                        </div>
+                      ) : (
+                        "-"
+                      )}
+                    </TableCell>
+                    <TableCell className="max-w-xl whitespace-normal text-gray-600">
+                      {renderChanges(candidate)}
+                    </TableCell>
+                    <TableCell>
+                      {candidate.councilUrl ? (
+                        <a
+                          href={candidate.councilUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-blue-600 hover:underline"
                         >
-                          {statusLabels[candidate.status]}
-                        </Badge>
-                      </TableCell>
-                      <TableCell className="font-medium">
-                        {next?.name ??
-                          candidate.existing?.name ??
-                          candidate.name}
-                      </TableCell>
-                      <TableCell>
-                        {next ? (
-                          <div>
-                            <p>
-                              {next.start_date} - {next.end_date ?? "未定"}
-                            </p>
-                            {renderDateNote(candidate)}
-                          </div>
-                        ) : canApplyWithManualDate(candidate) ? (
-                          <div>
-                            <div className="flex items-center gap-2">
-                              <Input
-                                type="date"
-                                value={manualDate?.start_date ?? ""}
-                                onChange={(event) =>
-                                  updateManualDate(
-                                    candidate.id,
-                                    "start_date",
-                                    event.target.value
-                                  )
-                                }
-                                className="w-36"
-                              />
-                              <span className="text-gray-400">-</span>
-                              <Input
-                                type="date"
-                                value={manualDate?.end_date ?? ""}
-                                onChange={(event) =>
-                                  updateManualDate(
-                                    candidate.id,
-                                    "end_date",
-                                    event.target.value
-                                  )
-                                }
-                                className="w-36"
-                              />
-                            </div>
-                            {renderDateNote(candidate)}
-                          </div>
-                        ) : (
-                          "-"
-                        )}
-                      </TableCell>
-                      <TableCell className="max-w-xl whitespace-normal text-gray-600">
-                        {renderChanges(candidate)}
-                      </TableCell>
-                      <TableCell>
-                        {candidate.councilUrl ? (
-                          <a
-                            href={candidate.councilUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-blue-600 hover:underline"
-                          >
-                            <ExternalLink className="size-4" />
-                          </a>
-                        ) : (
-                          "-"
-                        )}
-                      </TableCell>
-                    </TableRow>
-                  );
-                })}
-              </TableBody>
-            </Table>
-          )}
+                          <ExternalLink className="size-4" />
+                        </a>
+                      ) : (
+                        "-"
+                      )}
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
+            </TableBody>
+          </Table>
         </div>
       )}
     </div>

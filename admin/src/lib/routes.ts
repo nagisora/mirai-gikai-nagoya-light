@@ -13,6 +13,7 @@ export const routes = {
   billNew: () => "/bills/new" as const,
   tags: () => "/tags" as const,
   councilSessions: () => "/council-sessions" as const,
+  councilSessionImport: () => "/council-sessions/import" as const,
   factions: () => "/factions" as const,
   aiCollection: () => "/ai-collection" as const,
 
