@@ -1,0 +1,42 @@
+{
+  "id": "6bbf7c8b-8f97-4c24-afb7-23b9fcc8540b",
+  "name": "名古屋市公衆浴場法施行条例の一部改正について",
+  "bill_number": "第122号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "d58f649d-05ed-4340-9ebf-089592eadb3b",
+      "bill_id": "6bbf7c8b-8f97-4c24-afb7-23b9fcc8540b",
+      "difficulty_level": "normal",
+      "title": "名古屋市公衆浴場法施行条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.864Z",
+      "updated_at": "2026-05-10T01:48:23.864Z"
+    },
+    {
+      "id": "cd65ff40-545f-450a-b864-59c6312460f3",
+      "bill_id": "6bbf7c8b-8f97-4c24-afb7-23b9fcc8540b",
+      "difficulty_level": "hard",
+      "title": "名古屋市公衆浴場法施行条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.864Z",
+      "updated_at": "2026-05-10T01:48:23.864Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.864Z",
+  "updated_at": "2026-05-10T01:48:23.864Z"
+}

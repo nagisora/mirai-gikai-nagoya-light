@@ -1,0 +1,124 @@
+{
+  "id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+  "name": "太陽光発電設備のリサイクル推進及び適正な廃棄処理に関する意見書",
+  "bill_number": "議員提出議案第6号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "d69ff70c-77dd-4873-9bf6-90721e8a6305",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "difficulty_level": "normal",
+      "title": "太陽光発電設備のリサイクル推進及び適正な廃棄処理に関する意見書",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.872Z",
+      "updated_at": "2026-05-10T01:48:23.872Z"
+    },
+    {
+      "id": "b457793f-7553-4c6a-90c6-aef51bf20560",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "difficulty_level": "hard",
+      "title": "太陽光発電設備のリサイクル推進及び適正な廃棄処理に関する意見書",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.872Z",
+      "updated_at": "2026-05-10T01:48:23.872Z"
+    }
+  ],
+  "faction_stances": [
+    {
+      "id": "599b928d-adde-479a-ba66-84773a4ff2b7",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "liberal-democratic-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "39817e6b-fe61-4c95-b576-0147e9e42eec",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "nagoya-democratic",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "340f8a9e-ee01-41de-a713-b1b759e60060",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "komeito",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "7da46932-8d24-4942-8a15-920030a3022c",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "kengen-nagoya",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "16beff66-6975-4cac-807e-eb0e197372bf",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "japan-communist-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "f54b5167-7f4c-424a-898c-069738f44eca",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "nagoya-hinata-no-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "01ac3e6c-0123-46c9-9d1c-64758b192e35",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "nagoya-sousei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "399d0c2a-f39d-47be-8746-94ee6ad2f03e",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "shinsei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "6a507c3d-11b4-4c76-bcb7-0979e70a0942",
+      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
+      "faction_id": "nippon-ishin",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    }
+  ],
+  "created_at": "2026-05-10T01:48:23.872Z",
+  "updated_at": "2026-05-10T01:51:16.318Z"
+}

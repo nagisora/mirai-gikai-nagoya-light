@@ -1,0 +1,124 @@
+{
+  "id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+  "name": "アスベスト被害者の救済及び支援の拡充等を求める意見書",
+  "bill_number": "議員提出議案第4号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "e6757fc8-20d9-401a-a43f-98c93569b27c",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "difficulty_level": "normal",
+      "title": "アスベスト被害者の救済及び支援の拡充等を求める意見書",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.870Z",
+      "updated_at": "2026-05-10T01:48:23.870Z"
+    },
+    {
+      "id": "fe362ea9-5c2e-4c03-8b38-58a48aa2ea94",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "difficulty_level": "hard",
+      "title": "アスベスト被害者の救済及び支援の拡充等を求める意見書",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.870Z",
+      "updated_at": "2026-05-10T01:48:23.870Z"
+    }
+  ],
+  "faction_stances": [
+    {
+      "id": "a9affd60-6222-42a2-b709-910311810d9c",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "liberal-democratic-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "412559e0-8aea-4094-a402-4aa3785db9fa",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "nagoya-democratic",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "c456e92f-ef17-4068-b0c7-9cfe2c92f2cf",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "komeito",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "8fa0f893-e264-453c-a2e1-abc5f4e76b39",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "kengen-nagoya",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "9c340fb5-c9db-45e1-af3c-9839c13318d6",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "japan-communist-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "d3dad576-fd45-46ff-9233-8cdb0632cc15",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "nagoya-hinata-no-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "afe31d20-5b7c-45d6-9b62-afe2c5423ef4",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "nagoya-sousei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "dd1c791c-6717-486d-b638-9f5c67100e53",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "shinsei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "657ff464-518b-43a1-bc5b-3733d165ae80",
+      "bill_id": "954bb4eb-3243-489e-9c4d-883de7f9feb7",
+      "faction_id": "nippon-ishin",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    }
+  ],
+  "created_at": "2026-05-10T01:48:23.870Z",
+  "updated_at": "2026-05-10T01:51:16.318Z"
+}

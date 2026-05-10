@@ -1,0 +1,42 @@
+{
+  "id": "0a73ad12-9e90-4d6e-910b-56b831d35ce4",
+  "name": "名古屋市瑞穂公園条例の一部改正について",
+  "bill_number": "第78号",
+  "slug": null,
+  "status": "approved",
+  "status_note": "修正可決",
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "a0db3919-8fbb-436d-8637-81ea9e6f9506",
+      "bill_id": "0a73ad12-9e90-4d6e-910b-56b831d35ce4",
+      "difficulty_level": "normal",
+      "title": "名古屋市瑞穂公園条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.834Z",
+      "updated_at": "2026-05-10T01:48:23.834Z"
+    },
+    {
+      "id": "b28474ef-6792-4106-b59a-9a4857ac2470",
+      "bill_id": "0a73ad12-9e90-4d6e-910b-56b831d35ce4",
+      "difficulty_level": "hard",
+      "title": "名古屋市瑞穂公園条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.834Z",
+      "updated_at": "2026-05-10T01:48:23.834Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.834Z",
+  "updated_at": "2026-05-10T01:48:23.834Z"
+}

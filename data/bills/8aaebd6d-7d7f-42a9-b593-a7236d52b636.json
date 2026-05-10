@@ -1,0 +1,42 @@
+{
+  "id": "8aaebd6d-7d7f-42a9-b593-a7236d52b636",
+  "name": "名古屋市営住宅条例の一部改正について",
+  "bill_number": "第70号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "b46546c4-3caf-4a94-90ac-39a116dafe40",
+      "bill_id": "8aaebd6d-7d7f-42a9-b593-a7236d52b636",
+      "difficulty_level": "normal",
+      "title": "名古屋市営住宅条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.828Z",
+      "updated_at": "2026-05-10T01:48:23.828Z"
+    },
+    {
+      "id": "0b252d3f-de06-46f7-9855-d244a822e23b",
+      "bill_id": "8aaebd6d-7d7f-42a9-b593-a7236d52b636",
+      "difficulty_level": "hard",
+      "title": "名古屋市営住宅条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.828Z",
+      "updated_at": "2026-05-10T01:48:23.828Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.828Z",
+  "updated_at": "2026-05-10T01:48:23.828Z"
+}

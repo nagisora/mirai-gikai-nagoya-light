@@ -1,0 +1,42 @@
+{
+  "id": "e48a3a0f-5231-4d52-ae0b-10b784700e8c",
+  "name": "副市長選任について",
+  "bill_number": "同意第1号",
+  "slug": null,
+  "status": "approved",
+  "status_note": "同意",
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "ce2d66ab-4d42-4912-b5a7-95f4edca6184",
+      "bill_id": "e48a3a0f-5231-4d52-ae0b-10b784700e8c",
+      "difficulty_level": "normal",
+      "title": "副市長選任について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.866Z",
+      "updated_at": "2026-05-10T01:48:23.866Z"
+    },
+    {
+      "id": "c683e942-c9bd-4e2a-9b63-dca46ff66ecc",
+      "bill_id": "e48a3a0f-5231-4d52-ae0b-10b784700e8c",
+      "difficulty_level": "hard",
+      "title": "副市長選任について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.866Z",
+      "updated_at": "2026-05-10T01:48:23.866Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.866Z",
+  "updated_at": "2026-05-10T01:48:23.866Z"
+}

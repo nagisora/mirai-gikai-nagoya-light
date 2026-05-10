@@ -1,0 +1,42 @@
+{
+  "id": "a3c6727a-3d26-4169-8096-e2d6cf4a911e",
+  "name": "福祉事務所設置条例の一部改正について",
+  "bill_number": "第36号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "6a914170-cb3c-4104-8339-47ea431a4688",
+      "bill_id": "a3c6727a-3d26-4169-8096-e2d6cf4a911e",
+      "difficulty_level": "normal",
+      "title": "福祉事務所設置条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.803Z",
+      "updated_at": "2026-05-10T01:48:23.803Z"
+    },
+    {
+      "id": "b77f8fb1-ae9d-430d-bb84-518985a9b6c2",
+      "bill_id": "a3c6727a-3d26-4169-8096-e2d6cf4a911e",
+      "difficulty_level": "hard",
+      "title": "福祉事務所設置条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.803Z",
+      "updated_at": "2026-05-10T01:48:23.803Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.803Z",
+  "updated_at": "2026-05-10T01:48:23.803Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "f758a80b-a3ad-4489-b224-84f1402f406f",
+  "name": "名古屋市鳴海工場整備運営事業者選定審議会条例の制定について",
+  "bill_number": "第31号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "3a9d4a81-c162-4dd8-bed9-9b483872768c",
+      "bill_id": "f758a80b-a3ad-4489-b224-84f1402f406f",
+      "difficulty_level": "normal",
+      "title": "名古屋市鳴海工場整備運営事業者選定審議会条例の制定について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.798Z",
+      "updated_at": "2026-05-10T01:48:23.798Z"
+    },
+    {
+      "id": "09f90a36-96ca-4627-949f-de52ef53388e",
+      "bill_id": "f758a80b-a3ad-4489-b224-84f1402f406f",
+      "difficulty_level": "hard",
+      "title": "名古屋市鳴海工場整備運営事業者選定審議会条例の制定について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.798Z",
+      "updated_at": "2026-05-10T01:48:23.798Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.798Z",
+  "updated_at": "2026-05-10T01:48:23.798Z"
+}

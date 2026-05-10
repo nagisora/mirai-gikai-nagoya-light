@@ -1,0 +1,42 @@
+{
+  "id": "2c0eb227-fe87-4b51-9bb6-a403196d9cac",
+  "name": "名古屋市文化小劇場条例の一部改正について",
+  "bill_number": "第89号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "4a5a91aa-f952-41de-afff-627ed56b2de6",
+      "bill_id": "2c0eb227-fe87-4b51-9bb6-a403196d9cac",
+      "difficulty_level": "normal",
+      "title": "名古屋市文化小劇場条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.842Z",
+      "updated_at": "2026-05-10T01:48:23.842Z"
+    },
+    {
+      "id": "6d354887-7f01-4777-a7aa-810dc9265183",
+      "bill_id": "2c0eb227-fe87-4b51-9bb6-a403196d9cac",
+      "difficulty_level": "hard",
+      "title": "名古屋市文化小劇場条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.842Z",
+      "updated_at": "2026-05-10T01:48:23.842Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.842Z",
+  "updated_at": "2026-05-10T01:48:23.842Z"
+}

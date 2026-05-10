@@ -1,0 +1,11 @@
+{
+  "id": "kengen-nagoya",
+  "name": "減税日本ナゴヤ",
+  "display_name": "減税日本ナゴヤ",
+  "alternative_names": ["減税日本"],
+  "logo_url": null,
+  "sort_order": 4,
+  "is_active": true,
+  "created_at": "2026-05-10T00:00:00.000Z",
+  "updated_at": "2026-05-10T00:00:00.000Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "87000c1a-d7cb-4815-896f-65e67e850910",
+  "name": "名古屋市市政資料館条例の一部改正について",
+  "bill_number": "第21号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "3f5ad11e-f774-4ac6-9f24-a6b5d1b8b05c",
+      "bill_id": "87000c1a-d7cb-4815-896f-65e67e850910",
+      "difficulty_level": "normal",
+      "title": "名古屋市市政資料館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.791Z",
+      "updated_at": "2026-05-10T01:48:23.791Z"
+    },
+    {
+      "id": "6b4aaf12-d959-46a4-b760-79b88265cea6",
+      "bill_id": "87000c1a-d7cb-4815-896f-65e67e850910",
+      "difficulty_level": "hard",
+      "title": "名古屋市市政資料館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.791Z",
+      "updated_at": "2026-05-10T01:48:23.791Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.791Z",
+  "updated_at": "2026-05-10T01:48:23.791Z"
+}

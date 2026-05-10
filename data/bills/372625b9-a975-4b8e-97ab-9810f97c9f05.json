@@ -1,0 +1,42 @@
+{
+  "id": "372625b9-a975-4b8e-97ab-9810f97c9f05",
+  "name": "契約の締結について",
+  "bill_number": "第109号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "684696a1-3e56-4808-bc6e-2e2e31c89bbe",
+      "bill_id": "372625b9-a975-4b8e-97ab-9810f97c9f05",
+      "difficulty_level": "normal",
+      "title": "契約の締結について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.856Z",
+      "updated_at": "2026-05-10T01:48:23.856Z"
+    },
+    {
+      "id": "cb987f89-d302-429e-89a5-42ceae856bc7",
+      "bill_id": "372625b9-a975-4b8e-97ab-9810f97c9f05",
+      "difficulty_level": "hard",
+      "title": "契約の締結について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.856Z",
+      "updated_at": "2026-05-10T01:48:23.856Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.856Z",
+  "updated_at": "2026-05-10T01:48:23.856Z"
+}

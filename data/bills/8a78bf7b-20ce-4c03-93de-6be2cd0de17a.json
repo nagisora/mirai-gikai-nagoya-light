@@ -1,0 +1,42 @@
+{
+  "id": "8a78bf7b-20ce-4c03-93de-6be2cd0de17a",
+  "name": "契約の一部変更について",
+  "bill_number": "第117号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "be390e6d-9cde-416f-8248-6ee67318de41",
+      "bill_id": "8a78bf7b-20ce-4c03-93de-6be2cd0de17a",
+      "difficulty_level": "normal",
+      "title": "契約の一部変更について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.862Z",
+      "updated_at": "2026-05-10T01:48:23.862Z"
+    },
+    {
+      "id": "d3461e23-9be5-4a4a-9543-dac0af506416",
+      "bill_id": "8a78bf7b-20ce-4c03-93de-6be2cd0de17a",
+      "difficulty_level": "hard",
+      "title": "契約の一部変更について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.862Z",
+      "updated_at": "2026-05-10T01:48:23.862Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.862Z",
+  "updated_at": "2026-05-10T01:48:23.862Z"
+}

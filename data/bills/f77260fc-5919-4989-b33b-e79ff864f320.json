@@ -1,0 +1,42 @@
+{
+  "id": "f77260fc-5919-4989-b33b-e79ff864f320",
+  "name": "市道路線の認定及び廃止について",
+  "bill_number": "第120号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "53c79858-359c-4081-8ed5-1d845b230ebc",
+      "bill_id": "f77260fc-5919-4989-b33b-e79ff864f320",
+      "difficulty_level": "normal",
+      "title": "市道路線の認定及び廃止について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.863Z",
+      "updated_at": "2026-05-10T01:48:23.863Z"
+    },
+    {
+      "id": "00e72dd1-26ff-45ea-90c5-b98d097f2c21",
+      "bill_id": "f77260fc-5919-4989-b33b-e79ff864f320",
+      "difficulty_level": "hard",
+      "title": "市道路線の認定及び廃止について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.863Z",
+      "updated_at": "2026-05-10T01:48:23.863Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.863Z",
+  "updated_at": "2026-05-10T01:48:23.863Z"
+}

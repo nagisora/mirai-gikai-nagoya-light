@@ -1,0 +1,42 @@
+{
+  "id": "ac522464-da0d-49ba-9515-3cbe08002da3",
+  "name": "名古屋市旅館業法の施行等に関する条例の一部改正について",
+  "bill_number": "第121号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "64c1321a-c96d-44bc-b487-b8ee0acc020d",
+      "bill_id": "ac522464-da0d-49ba-9515-3cbe08002da3",
+      "difficulty_level": "normal",
+      "title": "名古屋市旅館業法の施行等に関する条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.864Z",
+      "updated_at": "2026-05-10T01:48:23.864Z"
+    },
+    {
+      "id": "58b15c3d-fe85-4101-9326-836b8482c613",
+      "bill_id": "ac522464-da0d-49ba-9515-3cbe08002da3",
+      "difficulty_level": "hard",
+      "title": "名古屋市旅館業法の施行等に関する条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.864Z",
+      "updated_at": "2026-05-10T01:48:23.864Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.864Z",
+  "updated_at": "2026-05-10T01:48:23.864Z"
+}

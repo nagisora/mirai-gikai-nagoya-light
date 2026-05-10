@@ -1,0 +1,124 @@
+{
+  "id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+  "name": "民生委員・児童委員及び保護司の選任に係る地域の負担軽減に関する意見書",
+  "bill_number": "議員提出議案第3号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "3635bb1a-b138-40e6-8ede-8a0bfc6d92c3",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "difficulty_level": "normal",
+      "title": "民生委員・児童委員及び保護司の選任に係る地域の負担軽減に関する意見書",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.870Z",
+      "updated_at": "2026-05-10T01:48:23.870Z"
+    },
+    {
+      "id": "d894db27-ad96-46d9-9348-233040c13b71",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "difficulty_level": "hard",
+      "title": "民生委員・児童委員及び保護司の選任に係る地域の負担軽減に関する意見書",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.870Z",
+      "updated_at": "2026-05-10T01:48:23.870Z"
+    }
+  ],
+  "faction_stances": [
+    {
+      "id": "1b6526c5-4913-49da-9fca-d80737e73291",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "liberal-democratic-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "4bb4791a-f8fe-4687-ad25-7d262b2bb7f5",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "nagoya-democratic",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "8be7f695-57ed-456f-8bf1-bb2ac8e93ffe",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "komeito",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "849d4e43-1418-4886-8090-5bf85d1e48f3",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "kengen-nagoya",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "035316a6-5dfe-4cf7-a6b7-466b0ebf5d8e",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "japan-communist-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "0f7da7f9-e6aa-4f57-8741-2f666bc85c60",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "nagoya-hinata-no-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "93b206cc-4465-47be-9356-f8e9b478207d",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "nagoya-sousei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "fe12a7a6-ce33-4258-b11a-5e947813e38d",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "shinsei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "c151b882-a11c-489c-8a1e-0ca2eeead7f2",
+      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
+      "faction_id": "nippon-ishin",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    }
+  ],
+  "created_at": "2026-05-10T01:48:23.870Z",
+  "updated_at": "2026-05-10T01:51:16.318Z"
+}

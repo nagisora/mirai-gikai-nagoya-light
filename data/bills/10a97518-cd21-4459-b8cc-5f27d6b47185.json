@@ -1,0 +1,124 @@
+{
+  "id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+  "name": "ゲノム編集技術応用食品の安全性審査の実施及び表示を含めた消費者への情報提供の在り方について更なる検討を求める意見書の提出について",
+  "bill_number": "議員提出議案第2号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "08cbb365-af70-4f13-9866-acaa6377e0bb",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "difficulty_level": "normal",
+      "title": "ゲノム編集技術応用食品の安全性審査の実施及び表示を含めた消費者への情報提供の在り方について更なる検討を求める意見書の提出について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.869Z",
+      "updated_at": "2026-05-10T01:48:23.869Z"
+    },
+    {
+      "id": "e9e23629-f3e5-4eac-8ee3-22c209c4c7a7",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "difficulty_level": "hard",
+      "title": "ゲノム編集技術応用食品の安全性審査の実施及び表示を含めた消費者への情報提供の在り方について更なる検討を求める意見書の提出について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.869Z",
+      "updated_at": "2026-05-10T01:48:23.869Z"
+    }
+  ],
+  "faction_stances": [
+    {
+      "id": "ac30659c-381e-4cc0-b6b5-3dad24654ef1",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "liberal-democratic-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.317Z"
+    },
+    {
+      "id": "7600cd24-a38b-4337-81f4-c635277b7e70",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "nagoya-democratic",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "7faa71d9-f620-4bf3-bd4d-f277795eea35",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "komeito",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "86f24f3c-55a4-44af-9651-42687e7269cf",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "kengen-nagoya",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "2a0d56c1-00b0-40ef-8baa-56f53e3dd4ff",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "japan-communist-party",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "f60d1449-4434-4b05-8e1c-97425d9e068f",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "nagoya-hinata-no-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "a263f659-00b4-4745-b2fc-2312c14e96ba",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "nagoya-sousei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "543ff082-a62e-498f-bf9a-a026ed5ab9c8",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "shinsei-kai",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    },
+    {
+      "id": "aa10afac-e408-4042-a259-97d5ef857f19",
+      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
+      "faction_id": "nippon-ishin",
+      "type": "for",
+      "comment": null,
+      "created_at": "2026-05-10T01:48:23.873Z",
+      "updated_at": "2026-05-10T01:51:16.318Z"
+    }
+  ],
+  "created_at": "2026-05-10T01:48:23.869Z",
+  "updated_at": "2026-05-10T01:51:16.318Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "e3b061b4-64ba-462d-8984-58f96e83d8ff",
+  "name": "令和7年度名古屋市水道事業会計補正予算（第1号）",
+  "bill_number": "第107号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "2667f1ba-99ac-4472-a509-3aabeb7622cb",
+      "bill_id": "e3b061b4-64ba-462d-8984-58f96e83d8ff",
+      "difficulty_level": "normal",
+      "title": "令和7年度名古屋市水道事業会計補正予算（第1号）",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.855Z",
+      "updated_at": "2026-05-10T01:48:23.855Z"
+    },
+    {
+      "id": "b34eefc9-6bfa-43cc-a824-71f11681a13a",
+      "bill_id": "e3b061b4-64ba-462d-8984-58f96e83d8ff",
+      "difficulty_level": "hard",
+      "title": "令和7年度名古屋市水道事業会計補正予算（第1号）",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.855Z",
+      "updated_at": "2026-05-10T01:48:23.855Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.855Z",
+  "updated_at": "2026-05-10T01:48:23.855Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "f03314d8-4b7e-4b7d-9d75-1280c2e400d6",
+  "name": "名古屋市児童福祉施設条例の一部改正について",
+  "bill_number": "第42号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "b507e3c1-64d9-4c96-bebc-599ff6392f6b",
+      "bill_id": "f03314d8-4b7e-4b7d-9d75-1280c2e400d6",
+      "difficulty_level": "normal",
+      "title": "名古屋市児童福祉施設条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.807Z",
+      "updated_at": "2026-05-10T01:48:23.807Z"
+    },
+    {
+      "id": "d7fd150f-e606-485c-abf2-ca57f69e1010",
+      "bill_id": "f03314d8-4b7e-4b7d-9d75-1280c2e400d6",
+      "difficulty_level": "hard",
+      "title": "名古屋市児童福祉施設条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.807Z",
+      "updated_at": "2026-05-10T01:48:23.807Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.807Z",
+  "updated_at": "2026-05-10T01:48:23.807Z"
+}

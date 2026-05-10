@@ -1,0 +1,42 @@
+{
+  "id": "702b123e-e6bb-4874-b5ee-e7380249219e",
+  "name": "令和8年度名古屋市公債特別会計予算",
+  "bill_number": "第12号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "f8a73d01-b790-4494-a704-94597dedf5a0",
+      "bill_id": "702b123e-e6bb-4874-b5ee-e7380249219e",
+      "difficulty_level": "normal",
+      "title": "令和8年度名古屋市公債特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.783Z",
+      "updated_at": "2026-05-10T01:48:23.783Z"
+    },
+    {
+      "id": "517dd521-5502-4605-914d-be3ead2b1a3d",
+      "bill_id": "702b123e-e6bb-4874-b5ee-e7380249219e",
+      "difficulty_level": "hard",
+      "title": "令和8年度名古屋市公債特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.783Z",
+      "updated_at": "2026-05-10T01:48:23.783Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.783Z",
+  "updated_at": "2026-05-10T01:48:23.783Z"
+}

@@ -28,27 +28,27 @@
   ],
   "faction_stances": [
     {
-      "id": "sample-bill-01-stance-a",
+      "id": "sample-bill-01-stance-liberal-democratic-party",
       "bill_id": "sample-bill-01",
-      "faction_id": "sample-faction-a",
+      "faction_id": "liberal-democratic-party",
       "type": "for",
       "comment": "待機児童対策は喫緊の課題であり、早期可決を支持します。",
       "created_at": "2026-03-10T00:00:00.000Z",
       "updated_at": "2026-03-10T00:00:00.000Z"
     },
     {
-      "id": "sample-bill-01-stance-b",
+      "id": "sample-bill-01-stance-nagoya-democratic",
       "bill_id": "sample-bill-01",
-      "faction_id": "sample-faction-b",
+      "faction_id": "nagoya-democratic",
       "type": "conditional_for",
       "comment": "保育士の処遇改善とセットで進めるべきという立場で条件付き賛成とします。",
       "created_at": "2026-03-10T00:00:00.000Z",
       "updated_at": "2026-03-10T00:00:00.000Z"
     },
     {
-      "id": "sample-bill-01-stance-c",
+      "id": "sample-bill-01-stance-komeito",
       "bill_id": "sample-bill-01",
-      "faction_id": "sample-faction-c",
+      "faction_id": "komeito",
       "type": "for",
       "comment": "現場ニーズに沿った内容であり賛成します。",
       "created_at": "2026-03-10T00:00:00.000Z",

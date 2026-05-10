@@ -1,0 +1,13 @@
+{
+  "id": "shinsei-kai",
+  "name": "新生会",
+  "display_name": "新生会",
+  "alternative_names": [
+    "新生"
+  ],
+  "logo_url": null,
+  "sort_order": 8,
+  "is_active": true,
+  "created_at": "2026-05-10T00:00:00.000Z",
+  "updated_at": "2026-05-10T01:47:05.120Z"
+}

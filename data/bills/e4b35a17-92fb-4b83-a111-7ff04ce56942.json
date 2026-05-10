@@ -1,0 +1,42 @@
+{
+  "id": "e4b35a17-92fb-4b83-a111-7ff04ce56942",
+  "name": "名古屋市図書館条例の一部改正について",
+  "bill_number": "第48号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "548e2059-3626-474a-8504-513e9b4dcd96",
+      "bill_id": "e4b35a17-92fb-4b83-a111-7ff04ce56942",
+      "difficulty_level": "normal",
+      "title": "名古屋市図書館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.811Z",
+      "updated_at": "2026-05-10T01:48:23.811Z"
+    },
+    {
+      "id": "99d5d5b0-5532-4284-b425-9ca5a5017ffa",
+      "bill_id": "e4b35a17-92fb-4b83-a111-7ff04ce56942",
+      "difficulty_level": "hard",
+      "title": "名古屋市図書館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.811Z",
+      "updated_at": "2026-05-10T01:48:23.811Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.811Z",
+  "updated_at": "2026-05-10T01:48:23.811Z"
+}

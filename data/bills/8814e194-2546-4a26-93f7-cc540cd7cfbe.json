@@ -1,0 +1,42 @@
+{
+  "id": "8814e194-2546-4a26-93f7-cc540cd7cfbe",
+  "name": "公立大学法人名古屋市立大学が徴収する料金の上限の変更について",
+  "bill_number": "第25号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "6e7e6698-9aef-4ec5-bc9f-2df3b873ca3f",
+      "bill_id": "8814e194-2546-4a26-93f7-cc540cd7cfbe",
+      "difficulty_level": "normal",
+      "title": "公立大学法人名古屋市立大学が徴収する料金の上限の変更について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.794Z",
+      "updated_at": "2026-05-10T01:48:23.794Z"
+    },
+    {
+      "id": "5c388c4a-db32-40b5-bdde-8a7322881390",
+      "bill_id": "8814e194-2546-4a26-93f7-cc540cd7cfbe",
+      "difficulty_level": "hard",
+      "title": "公立大学法人名古屋市立大学が徴収する料金の上限の変更について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.794Z",
+      "updated_at": "2026-05-10T01:48:23.794Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.794Z",
+  "updated_at": "2026-05-10T01:48:23.794Z"
+}

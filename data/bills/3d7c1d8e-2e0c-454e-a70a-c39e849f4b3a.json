@@ -1,0 +1,42 @@
+{
+  "id": "3d7c1d8e-2e0c-454e-a70a-c39e849f4b3a",
+  "name": "令和8年度名古屋市水道事業会計予算",
+  "bill_number": "第13号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "f9190810-489d-404a-b57d-f383fb0cad09",
+      "bill_id": "3d7c1d8e-2e0c-454e-a70a-c39e849f4b3a",
+      "difficulty_level": "normal",
+      "title": "令和8年度名古屋市水道事業会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.784Z",
+      "updated_at": "2026-05-10T01:48:23.784Z"
+    },
+    {
+      "id": "b4157a95-81cf-4092-91d4-75c5f534708e",
+      "bill_id": "3d7c1d8e-2e0c-454e-a70a-c39e849f4b3a",
+      "difficulty_level": "hard",
+      "title": "令和8年度名古屋市水道事業会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.784Z",
+      "updated_at": "2026-05-10T01:48:23.784Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.784Z",
+  "updated_at": "2026-05-10T01:48:23.784Z"
+}

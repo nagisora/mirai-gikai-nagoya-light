@@ -1,11 +1,11 @@
 {
-  "name": "みらい議会＠川崎市",
-  "short_name": "みらい議会＠川崎市",
-  "description": "川崎市議会で今どんな議案が検討されているか、わかりやすく伝えるプラットフォーム",
+  "name": "みらい議会＠名古屋市",
+  "short_name": "みらい議会＠名古屋市",
+  "description": "名古屋市議会で今どんな議案が検討されているか、わかりやすく伝えるプラットフォーム",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F7F4F0",
-  "theme_color": "#1e7f7a",
+  "theme_color": "#007a3d",
   "orientation": "portrait-primary",
   "icons": [
     {

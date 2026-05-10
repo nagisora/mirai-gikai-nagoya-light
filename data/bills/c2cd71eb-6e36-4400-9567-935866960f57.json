@@ -1,0 +1,42 @@
+{
+  "id": "c2cd71eb-6e36-4400-9567-935866960f57",
+  "name": "補正予算に関する専決処分について",
+  "bill_number": "承認第2号",
+  "slug": null,
+  "status": "approved",
+  "status_note": "承認",
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "4135dba4-2f91-4d57-8112-41cfc4ee2f44",
+      "bill_id": "c2cd71eb-6e36-4400-9567-935866960f57",
+      "difficulty_level": "normal",
+      "title": "補正予算に関する専決処分について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.866Z",
+      "updated_at": "2026-05-10T01:48:23.866Z"
+    },
+    {
+      "id": "e3d4de1f-2f30-4069-aad0-581199756e2b",
+      "bill_id": "c2cd71eb-6e36-4400-9567-935866960f57",
+      "difficulty_level": "hard",
+      "title": "補正予算に関する専決処分について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.866Z",
+      "updated_at": "2026-05-10T01:48:23.866Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.866Z",
+  "updated_at": "2026-05-10T01:48:23.866Z"
+}

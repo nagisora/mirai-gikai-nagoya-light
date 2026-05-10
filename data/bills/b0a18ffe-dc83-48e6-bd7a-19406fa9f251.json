@@ -1,0 +1,42 @@
+{
+  "id": "b0a18ffe-dc83-48e6-bd7a-19406fa9f251",
+  "name": "名古屋市青少年交流プラザ条例の一部改正について",
+  "bill_number": "第40号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "5669967d-adfa-4b7a-a165-563ea0718b24",
+      "bill_id": "b0a18ffe-dc83-48e6-bd7a-19406fa9f251",
+      "difficulty_level": "normal",
+      "title": "名古屋市青少年交流プラザ条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.806Z",
+      "updated_at": "2026-05-10T01:48:23.806Z"
+    },
+    {
+      "id": "86485bc5-a3a7-4653-a296-d0a2b9838c60",
+      "bill_id": "b0a18ffe-dc83-48e6-bd7a-19406fa9f251",
+      "difficulty_level": "hard",
+      "title": "名古屋市青少年交流プラザ条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.806Z",
+      "updated_at": "2026-05-10T01:48:23.806Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.806Z",
+  "updated_at": "2026-05-10T01:48:23.806Z"
+}

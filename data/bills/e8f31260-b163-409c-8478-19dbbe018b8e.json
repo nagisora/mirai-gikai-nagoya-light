@@ -1,0 +1,42 @@
+{
+  "id": "e8f31260-b163-409c-8478-19dbbe018b8e",
+  "name": "名古屋市行政手続条例の一部改正について",
+  "bill_number": "第95号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "40940541-dd51-4eea-930f-9227bc9dfa64",
+      "bill_id": "e8f31260-b163-409c-8478-19dbbe018b8e",
+      "difficulty_level": "normal",
+      "title": "名古屋市行政手続条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.846Z",
+      "updated_at": "2026-05-10T01:48:23.846Z"
+    },
+    {
+      "id": "a839af20-afd0-4a4c-b045-73b4d0e443e7",
+      "bill_id": "e8f31260-b163-409c-8478-19dbbe018b8e",
+      "difficulty_level": "hard",
+      "title": "名古屋市行政手続条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.846Z",
+      "updated_at": "2026-05-10T01:48:23.846Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.846Z",
+  "updated_at": "2026-05-10T01:48:23.846Z"
+}

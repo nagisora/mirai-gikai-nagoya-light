@@ -3,26 +3,26 @@
  * Fork して別の地方議会向けに使用する場合はこのファイルを変更してください。
  */
 export const siteConfig = {
-  siteName: "みらい議会＠川崎市",
+  siteName: "みらい議会＠名古屋市",
   siteDescription:
-    "川崎市議会で今どんな議案が検討されているか、わかりやすく伝えるプラットフォームです",
-  cityName: "川崎市",
-  councilName: "川崎市議会",
+    "名古屋市議会で今どんな議案が検討されているか、わかりやすく伝えるプラットフォームです",
+  cityName: "名古屋市",
+  councilName: "名古屋市議会",
   keywords: [
-    "みらい議会＠川崎市",
+    "みらい議会＠名古屋市",
     "みらい議会",
     "議案",
-    "川崎市",
+    "名古屋市",
     "市議会",
     "地方政治",
     "政策",
     "解説",
   ],
-  councilBaseUrl: "https://www.city.kawasaki.jp/",
+  councilBaseUrl: "https://www.city.nagoya.jp/",
   /** 議案・議決結果の一覧ページ */
   councilBillsDetailUrl:
-    "https://www.city.kawasaki.jp/shisei/category/40-7-25-0-0-0-0-0-0-0.html",
-  twitterHashtag: "みらい議会川崎版", // # なし
+    "https://www.city.nagoya.jp/shikai/shingi/1030858/index.html",
+  twitterHashtag: "みらい議会名古屋版", // # なし
   externalLinks: {
     report: "https://forms.gle/GM4oTN94ttPRjyjp9",
     aboutNote: "",
@@ -45,7 +45,7 @@ export const siteConfig = {
     name: "Gondow" as string,
     contactUrl: "https://x.com/GondowTakashi" as string,
     /** 利用規約の準拠法・管轄裁判所（第一審の専属的合意管轄） */
-    jurisdiction: "横浜地方裁判所" as string,
+    jurisdiction: "名古屋地方裁判所" as string,
   },
   /**
    * 表示切り替えフラグ

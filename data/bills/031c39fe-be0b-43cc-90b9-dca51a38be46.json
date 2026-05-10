@@ -1,0 +1,42 @@
+{
+  "id": "031c39fe-be0b-43cc-90b9-dca51a38be46",
+  "name": "令和8年度名古屋市名古屋城天守閣特別会計予算",
+  "bill_number": "第7号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "ea2763dd-afb4-445b-be56-2444c6977ff7",
+      "bill_id": "031c39fe-be0b-43cc-90b9-dca51a38be46",
+      "difficulty_level": "normal",
+      "title": "令和8年度名古屋市名古屋城天守閣特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.778Z",
+      "updated_at": "2026-05-10T01:48:23.778Z"
+    },
+    {
+      "id": "c8d2e7fc-7798-4a7c-859d-d0c630f9c3d3",
+      "bill_id": "031c39fe-be0b-43cc-90b9-dca51a38be46",
+      "difficulty_level": "hard",
+      "title": "令和8年度名古屋市名古屋城天守閣特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.778Z",
+      "updated_at": "2026-05-10T01:48:23.778Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.778Z",
+  "updated_at": "2026-05-10T01:48:23.778Z"
+}

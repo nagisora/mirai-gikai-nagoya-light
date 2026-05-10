@@ -1,0 +1,42 @@
+{
+  "id": "b57bb928-1724-485a-b3eb-cef6b6ecab27",
+  "name": "土地の無償貸付について",
+  "bill_number": "第118号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "0c736477-8630-4254-8bab-c47dbd482643",
+      "bill_id": "b57bb928-1724-485a-b3eb-cef6b6ecab27",
+      "difficulty_level": "normal",
+      "title": "土地の無償貸付について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.862Z",
+      "updated_at": "2026-05-10T01:48:23.862Z"
+    },
+    {
+      "id": "9bf635d8-ab2a-46f8-84ea-64b1086ef197",
+      "bill_id": "b57bb928-1724-485a-b3eb-cef6b6ecab27",
+      "difficulty_level": "hard",
+      "title": "土地の無償貸付について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.862Z",
+      "updated_at": "2026-05-10T01:48:23.862Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.862Z",
+  "updated_at": "2026-05-10T01:48:23.862Z"
+}

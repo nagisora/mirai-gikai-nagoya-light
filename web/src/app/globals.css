@@ -106,8 +106,8 @@
   --color-mirai-progress-fill: #a9e89d;
 
   /* Gradient endpoints */
-  --color-mirai-gradient-start: #1e7f7a;
-  --color-mirai-gradient-end: #2eb8a8;
+  --color-mirai-gradient-start: #00873c;
+  --color-mirai-gradient-end: #4caf50;
 }
 
 :root {
@@ -118,8 +118,8 @@
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
   --popover-foreground: oklch(0.145 0 0);
-  --primary: #1e7f7a;
-  --primary-accent: #0b5f5c;
+  --primary: #007a3d;
+  --primary-accent: #005f2f;
   --primary-foreground: oklch(0.985 0 0);
   --secondary: oklch(0.97 0 0);
   --secondary-foreground: oklch(0.205 0 0);

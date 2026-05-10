@@ -1,0 +1,42 @@
+{
+  "id": "ad4f2449-efa3-462c-8610-960f55954390",
+  "name": "名古屋市演劇練習館条例の一部改正について",
+  "bill_number": "第61号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "26f722d5-5d2d-40dd-9613-1ce79a7e54b2",
+      "bill_id": "ad4f2449-efa3-462c-8610-960f55954390",
+      "difficulty_level": "normal",
+      "title": "名古屋市演劇練習館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.822Z",
+      "updated_at": "2026-05-10T01:48:23.822Z"
+    },
+    {
+      "id": "8fb89c58-f442-4956-9b45-3ac3a71886fb",
+      "bill_id": "ad4f2449-efa3-462c-8610-960f55954390",
+      "difficulty_level": "hard",
+      "title": "名古屋市演劇練習館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.822Z",
+      "updated_at": "2026-05-10T01:48:23.822Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.822Z",
+  "updated_at": "2026-05-10T01:48:23.822Z"
+}

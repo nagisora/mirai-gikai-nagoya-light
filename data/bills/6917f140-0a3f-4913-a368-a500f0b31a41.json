@@ -1,0 +1,42 @@
+{
+  "id": "6917f140-0a3f-4913-a368-a500f0b31a41",
+  "name": "乗合自動車乗車料条例の一部を改正する条例の一部改正について",
+  "bill_number": "第54号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "712a1429-994a-4f5a-a2a2-a728c91881ee",
+      "bill_id": "6917f140-0a3f-4913-a368-a500f0b31a41",
+      "difficulty_level": "normal",
+      "title": "乗合自動車乗車料条例の一部を改正する条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.815Z",
+      "updated_at": "2026-05-10T01:48:23.815Z"
+    },
+    {
+      "id": "fe1141c2-39e7-4e9f-a9ed-a769e81c9a81",
+      "bill_id": "6917f140-0a3f-4913-a368-a500f0b31a41",
+      "difficulty_level": "hard",
+      "title": "乗合自動車乗車料条例の一部を改正する条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.815Z",
+      "updated_at": "2026-05-10T01:48:23.815Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.815Z",
+  "updated_at": "2026-05-10T01:48:23.815Z"
+}

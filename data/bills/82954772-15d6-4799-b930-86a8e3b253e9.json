@@ -1,0 +1,42 @@
+{
+  "id": "82954772-15d6-4799-b930-86a8e3b253e9",
+  "name": "令和8年度名古屋市母子父子寡婦福祉資金貸付金特別会計予算",
+  "bill_number": "第5号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "4678afbc-0a19-4a59-a347-bfdab62e4f26",
+      "bill_id": "82954772-15d6-4799-b930-86a8e3b253e9",
+      "difficulty_level": "normal",
+      "title": "令和8年度名古屋市母子父子寡婦福祉資金貸付金特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.777Z",
+      "updated_at": "2026-05-10T01:48:23.777Z"
+    },
+    {
+      "id": "fdf03fc1-c84f-4a50-a5ad-776abd992f04",
+      "bill_id": "82954772-15d6-4799-b930-86a8e3b253e9",
+      "difficulty_level": "hard",
+      "title": "令和8年度名古屋市母子父子寡婦福祉資金貸付金特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.777Z",
+      "updated_at": "2026-05-10T01:48:23.777Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.777Z",
+  "updated_at": "2026-05-10T01:48:23.777Z"
+}

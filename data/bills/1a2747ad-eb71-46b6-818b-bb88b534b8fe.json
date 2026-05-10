@@ -1,0 +1,42 @@
+{
+  "id": "1a2747ad-eb71-46b6-818b-bb88b534b8fe",
+  "name": "名古屋市総合社会福祉会館条例の一部改正について",
+  "bill_number": "第37号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "8af20238-ce52-449a-82ec-8ed78f508337",
+      "bill_id": "1a2747ad-eb71-46b6-818b-bb88b534b8fe",
+      "difficulty_level": "normal",
+      "title": "名古屋市総合社会福祉会館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.804Z",
+      "updated_at": "2026-05-10T01:48:23.804Z"
+    },
+    {
+      "id": "72b1141b-847f-4346-8b53-8cb776cca969",
+      "bill_id": "1a2747ad-eb71-46b6-818b-bb88b534b8fe",
+      "difficulty_level": "hard",
+      "title": "名古屋市総合社会福祉会館条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.804Z",
+      "updated_at": "2026-05-10T01:48:23.804Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.804Z",
+  "updated_at": "2026-05-10T01:48:23.804Z"
+}

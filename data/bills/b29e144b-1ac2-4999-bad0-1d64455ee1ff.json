@@ -1,0 +1,42 @@
+{
+  "id": "b29e144b-1ac2-4999-bad0-1d64455ee1ff",
+  "name": "名古屋市子ども・子育て支援法施行条例の一部改正について",
+  "bill_number": "第41号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "55fa6f5f-512a-4625-805c-b3798cac369b",
+      "bill_id": "b29e144b-1ac2-4999-bad0-1d64455ee1ff",
+      "difficulty_level": "normal",
+      "title": "名古屋市子ども・子育て支援法施行条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.807Z",
+      "updated_at": "2026-05-10T01:48:23.807Z"
+    },
+    {
+      "id": "9e46bbbc-62a4-4d51-b530-393f454a230e",
+      "bill_id": "b29e144b-1ac2-4999-bad0-1d64455ee1ff",
+      "difficulty_level": "hard",
+      "title": "名古屋市子ども・子育て支援法施行条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.807Z",
+      "updated_at": "2026-05-10T01:48:23.807Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.807Z",
+  "updated_at": "2026-05-10T01:48:23.807Z"
+}

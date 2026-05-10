@@ -1,0 +1,42 @@
+{
+  "id": "61ea3a04-bafe-4d73-bd27-d7acbfa097cd",
+  "name": "令和7年度名古屋市介護保険特別会計補正予算（第2号）",
+  "bill_number": "第102号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "43079dad-9dc0-4808-ac94-d58170b84383",
+      "bill_id": "61ea3a04-bafe-4d73-bd27-d7acbfa097cd",
+      "difficulty_level": "normal",
+      "title": "令和7年度名古屋市介護保険特別会計補正予算（第2号）",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.850Z",
+      "updated_at": "2026-05-10T01:48:23.850Z"
+    },
+    {
+      "id": "6025d9ef-077e-455d-9080-7878b8e0d97e",
+      "bill_id": "61ea3a04-bafe-4d73-bd27-d7acbfa097cd",
+      "difficulty_level": "hard",
+      "title": "令和7年度名古屋市介護保険特別会計補正予算（第2号）",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.850Z",
+      "updated_at": "2026-05-10T01:48:23.850Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.850Z",
+  "updated_at": "2026-05-10T01:48:23.850Z"
+}

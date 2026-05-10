@@ -1,0 +1,42 @@
+{
+  "id": "8b726729-2e78-477f-8081-09620e536e7d",
+  "name": "令和8年度名古屋市用地先行取得特別会計予算",
+  "bill_number": "第11号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "ad7bf296-4a42-4a00-a759-351453008419",
+      "bill_id": "8b726729-2e78-477f-8081-09620e536e7d",
+      "difficulty_level": "normal",
+      "title": "令和8年度名古屋市用地先行取得特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.782Z",
+      "updated_at": "2026-05-10T01:48:23.782Z"
+    },
+    {
+      "id": "59b8e5f1-28b2-488e-9a3d-c5b4eaddd41a",
+      "bill_id": "8b726729-2e78-477f-8081-09620e536e7d",
+      "difficulty_level": "hard",
+      "title": "令和8年度名古屋市用地先行取得特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.782Z",
+      "updated_at": "2026-05-10T01:48:23.782Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.782Z",
+  "updated_at": "2026-05-10T01:48:23.782Z"
+}

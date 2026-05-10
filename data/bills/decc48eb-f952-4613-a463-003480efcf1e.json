@@ -1,0 +1,42 @@
+{
+  "id": "decc48eb-f952-4613-a463-003480efcf1e",
+  "name": "名古屋高速道路公社の基本財産の額の変更について",
+  "bill_number": "第72号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "2d178a58-d167-48d1-b3c3-c04c235f4a52",
+      "bill_id": "decc48eb-f952-4613-a463-003480efcf1e",
+      "difficulty_level": "normal",
+      "title": "名古屋高速道路公社の基本財産の額の変更について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.829Z",
+      "updated_at": "2026-05-10T01:48:23.829Z"
+    },
+    {
+      "id": "e9b7c696-1721-4399-988e-1fb9af04df0e",
+      "bill_id": "decc48eb-f952-4613-a463-003480efcf1e",
+      "difficulty_level": "hard",
+      "title": "名古屋高速道路公社の基本財産の額の変更について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.829Z",
+      "updated_at": "2026-05-10T01:48:23.829Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.829Z",
+  "updated_at": "2026-05-10T01:48:23.829Z"
+}

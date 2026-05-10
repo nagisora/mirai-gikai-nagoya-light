@@ -1,0 +1,42 @@
+{
+  "id": "ac69449f-66d2-4d19-91f3-a327dd916416",
+  "name": "令和7年度名古屋市公債特別会計補正予算（第3号）",
+  "bill_number": "第106号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "22fd3481-b771-45c5-9a6c-57241c75c9f8",
+      "bill_id": "ac69449f-66d2-4d19-91f3-a327dd916416",
+      "difficulty_level": "normal",
+      "title": "令和7年度名古屋市公債特別会計補正予算（第3号）",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.854Z",
+      "updated_at": "2026-05-10T01:48:23.854Z"
+    },
+    {
+      "id": "6feaf113-359c-4046-83fc-820372017df8",
+      "bill_id": "ac69449f-66d2-4d19-91f3-a327dd916416",
+      "difficulty_level": "hard",
+      "title": "令和7年度名古屋市公債特別会計補正予算（第3号）",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.854Z",
+      "updated_at": "2026-05-10T01:48:23.854Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.854Z",
+  "updated_at": "2026-05-10T01:48:23.854Z"
+}

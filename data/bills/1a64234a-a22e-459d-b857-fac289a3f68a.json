@@ -1,0 +1,42 @@
+{
+  "id": "1a64234a-a22e-459d-b857-fac289a3f68a",
+  "name": "令和8年度名古屋市市場及びと畜場特別会計予算",
+  "bill_number": "第6号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "bd2d86c1-5bb6-4bb8-93c3-9dfb3408a9ae",
+      "bill_id": "1a64234a-a22e-459d-b857-fac289a3f68a",
+      "difficulty_level": "normal",
+      "title": "令和8年度名古屋市市場及びと畜場特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.778Z",
+      "updated_at": "2026-05-10T01:48:23.778Z"
+    },
+    {
+      "id": "29e620da-48be-4a3e-aa56-8d21ffbff45c",
+      "bill_id": "1a64234a-a22e-459d-b857-fac289a3f68a",
+      "difficulty_level": "hard",
+      "title": "令和8年度名古屋市市場及びと畜場特別会計予算",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.778Z",
+      "updated_at": "2026-05-10T01:48:23.778Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.778Z",
+  "updated_at": "2026-05-10T01:48:23.778Z"
+}

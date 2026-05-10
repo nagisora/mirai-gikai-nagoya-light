@@ -1,0 +1,42 @@
+{
+  "id": "6e450da4-f371-4aa1-b8d5-337bb2fa9ce6",
+  "name": "名古屋城本丸御殿積立基金条例の一部改正について",
+  "bill_number": "第59号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "7cbaa940-673b-4bba-a8da-f2caaaa8ced0",
+      "bill_id": "6e450da4-f371-4aa1-b8d5-337bb2fa9ce6",
+      "difficulty_level": "normal",
+      "title": "名古屋城本丸御殿積立基金条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.820Z",
+      "updated_at": "2026-05-10T01:48:23.820Z"
+    },
+    {
+      "id": "9a40f826-1ce9-459a-b63d-f5721c654212",
+      "bill_id": "6e450da4-f371-4aa1-b8d5-337bb2fa9ce6",
+      "difficulty_level": "hard",
+      "title": "名古屋城本丸御殿積立基金条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.820Z",
+      "updated_at": "2026-05-10T01:48:23.820Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.820Z",
+  "updated_at": "2026-05-10T01:48:23.820Z"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "54157314-e704-4f69-9bd3-d27d05aca731",
+  "name": "名古屋金城ふ頭アリーナ条例の一部改正について",
+  "bill_number": "第29号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "7c797fa9-f8c8-45f4-95ef-b480e4edd31f",
+      "bill_id": "54157314-e704-4f69-9bd3-d27d05aca731",
+      "difficulty_level": "normal",
+      "title": "名古屋金城ふ頭アリーナ条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.797Z",
+      "updated_at": "2026-05-10T01:48:23.797Z"
+    },
+    {
+      "id": "e63d5c54-678f-4bd6-9c15-80967b954ea4",
+      "bill_id": "54157314-e704-4f69-9bd3-d27d05aca731",
+      "difficulty_level": "hard",
+      "title": "名古屋金城ふ頭アリーナ条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.797Z",
+      "updated_at": "2026-05-10T01:48:23.797Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.797Z",
+  "updated_at": "2026-05-10T01:48:23.797Z"
+}

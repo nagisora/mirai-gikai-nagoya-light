@@ -1,0 +1,42 @@
+{
+  "id": "866a74d7-6b05-48e3-91f7-ac9df8d76d2a",
+  "name": "名古屋市志段味古墳群歴史の里条例の一部改正について",
+  "bill_number": "第51号",
+  "slug": null,
+  "status": "approved",
+  "status_note": null,
+  "publish_status": "draft",
+  "council_session_id": null,
+  "is_featured": false,
+  "published_at": "2026-01-01",
+  "submitted_date": null,
+  "thumbnail_url": null,
+  "share_thumbnail_url": null,
+  "pdf_url": null,
+  "tag_ids": [],
+  "bill_contents": [
+    {
+      "id": "a3c25152-af1e-4846-8d2a-7630d0b05ea4",
+      "bill_id": "866a74d7-6b05-48e3-91f7-ac9df8d76d2a",
+      "difficulty_level": "normal",
+      "title": "名古屋市志段味古墳群歴史の里条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.813Z",
+      "updated_at": "2026-05-10T01:48:23.813Z"
+    },
+    {
+      "id": "c201946f-0191-4099-a743-c92ed5fc8d08",
+      "bill_id": "866a74d7-6b05-48e3-91f7-ac9df8d76d2a",
+      "difficulty_level": "hard",
+      "title": "名古屋市志段味古墳群歴史の里条例の一部改正について",
+      "summary": "",
+      "content": "",
+      "created_at": "2026-05-10T01:48:23.813Z",
+      "updated_at": "2026-05-10T01:48:23.813Z"
+    }
+  ],
+  "faction_stances": [],
+  "created_at": "2026-05-10T01:48:23.813Z",
+  "updated_at": "2026-05-10T01:48:23.813Z"
+}
