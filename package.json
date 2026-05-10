@@ -10,6 +10,7 @@
     "typecheck": "pnpm -r run typecheck",
     "lint": "biome format . && biome lint .",
     "lint:fix": "biome format --write . && biome lint --write .",
+    "import:nagoya:sessions": "node scripts/import-nagoya-council-sessions.mjs",
     "postinstall": "npx simple-git-hooks"
   },
   "devDependencies": {
