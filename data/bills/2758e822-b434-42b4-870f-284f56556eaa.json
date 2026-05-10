@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "b0315ad5-e3da-454a-a4c7-b6b929b4f997",
-      "bill_id": "2758e822-b434-42b4-870f-284f56556eaa",
-      "difficulty_level": "normal",
-      "title": "令和8年度名古屋市工業用水道事業会計予算",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.785Z",
-      "updated_at": "2026-05-10T01:48:23.785Z"
-    },
     {
       "id": "e5ea8e33-817f-4b2d-b4e0-f02a5b15debe",
       "bill_id": "2758e822-b434-42b4-870f-284f56556eaa",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.785Z",
-  "updated_at": "2026-05-10T01:48:23.785Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

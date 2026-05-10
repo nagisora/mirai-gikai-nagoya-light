@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": "修正可決",
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "e112118a-cbc4-4c9b-af6c-453556ed2a2d",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.840Z",
       "updated_at": "2026-05-10T01:48:23.840Z"
-    },
-    {
-      "id": "41a348e3-284e-44a5-b92b-c7085d37e765",
-      "bill_id": "5c22dee3-7919-48fd-95c2-744c513c915e",
-      "difficulty_level": "hard",
-      "title": "名古屋市博物館条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.840Z",
-      "updated_at": "2026-05-10T01:48:23.840Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.840Z",
-  "updated_at": "2026-05-10T01:48:23.840Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

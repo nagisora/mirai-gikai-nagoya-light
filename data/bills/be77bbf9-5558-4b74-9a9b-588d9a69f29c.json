@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": "修正可決",
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "bff528f7-125a-4243-9221-e715270c0dea",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.812Z",
       "updated_at": "2026-05-10T01:48:23.812Z"
-    },
-    {
-      "id": "cfee0a98-6d58-44e9-94a7-e19788c5f490",
-      "bill_id": "be77bbf9-5558-4b74-9a9b-588d9a69f29c",
-      "difficulty_level": "hard",
-      "title": "名古屋市女性会館条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.812Z",
-      "updated_at": "2026-05-10T01:48:23.812Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.812Z",
-  "updated_at": "2026-05-10T01:48:23.812Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

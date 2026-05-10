@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-urban"
+  ],
   "bill_contents": [
-    {
-      "id": "50a8650a-c0ac-46c4-9665-451df49b083d",
-      "bill_id": "f383eafd-00de-4398-b2a7-0636cf446625",
-      "difficulty_level": "normal",
-      "title": "土地区画整理に伴う町の区域の変更について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.863Z",
-      "updated_at": "2026-05-10T01:48:23.863Z"
-    },
     {
       "id": "6508c737-4dae-4c6a-b62a-5c16cc00a111",
       "bill_id": "f383eafd-00de-4398-b2a7-0636cf446625",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.863Z",
-  "updated_at": "2026-05-10T01:48:23.863Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-welfare"
+  ],
   "bill_contents": [
-    {
-      "id": "3f739851-ed94-458b-aac1-c6779101af9c",
-      "bill_id": "e7d520f8-3743-4f23-bce0-11586beb9b92",
-      "difficulty_level": "normal",
-      "title": "名古屋市国民健康保険条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.839Z",
-      "updated_at": "2026-05-10T01:48:23.839Z"
-    },
     {
       "id": "11eed3e6-78c0-48b7-80ef-6e0d6a606a86",
       "bill_id": "e7d520f8-3743-4f23-bce0-11586beb9b92",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.839Z",
-  "updated_at": "2026-05-10T01:48:23.839Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

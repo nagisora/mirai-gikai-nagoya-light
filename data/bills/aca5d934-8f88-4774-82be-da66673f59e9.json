@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "95e36bb7-bd65-4d48-b126-6c1130710843",
-      "bill_id": "aca5d934-8f88-4774-82be-da66673f59e9",
-      "difficulty_level": "normal",
-      "title": "令和7年度名古屋市一般会計補正予算（第6号）",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.850Z",
-      "updated_at": "2026-05-10T01:48:23.850Z"
-    },
     {
       "id": "9afe3f4e-439e-4b99-8d90-75c366d3c383",
       "bill_id": "aca5d934-8f88-4774-82be-da66673f59e9",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.850Z",
-  "updated_at": "2026-05-10T01:48:23.850Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

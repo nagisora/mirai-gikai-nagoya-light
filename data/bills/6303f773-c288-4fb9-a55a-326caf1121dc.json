@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-child-education"
+  ],
   "bill_contents": [
     {
       "id": "167273ba-5864-4a0a-8d01-730afdca9447",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.808Z",
       "updated_at": "2026-05-10T01:48:23.808Z"
-    },
-    {
-      "id": "ccf1cbde-b3d1-44de-a556-f84829ec6cda",
-      "bill_id": "6303f773-c288-4fb9-a55a-326caf1121dc",
-      "difficulty_level": "hard",
-      "title": "名古屋市野外教育センター条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.808Z",
-      "updated_at": "2026-05-10T01:48:23.808Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.808Z",
-  "updated_at": "2026-05-10T01:48:23.808Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

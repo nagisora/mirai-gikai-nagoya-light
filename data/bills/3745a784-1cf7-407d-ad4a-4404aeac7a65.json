@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "5e7bcbda-fc05-47b7-9a00-731c11e881e6",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.842Z",
       "updated_at": "2026-05-10T01:48:23.842Z"
-    },
-    {
-      "id": "82e9c4c0-cd4a-44b6-a08c-cb1899c5c924",
-      "bill_id": "3745a784-1cf7-407d-ad4a-4404aeac7a65",
-      "difficulty_level": "hard",
-      "title": "名古屋市芸術創造センター条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.842Z",
-      "updated_at": "2026-05-10T01:48:23.842Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.842Z",
-  "updated_at": "2026-05-10T01:48:23.842Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

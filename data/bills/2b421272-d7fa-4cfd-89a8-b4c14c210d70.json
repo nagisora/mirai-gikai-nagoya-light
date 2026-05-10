@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-governance"
+  ],
   "bill_contents": [
-    {
-      "id": "2de30d03-5b51-4593-bb5a-cf3f644b225a",
-      "bill_id": "2b421272-d7fa-4cfd-89a8-b4c14c210d70",
-      "difficulty_level": "normal",
-      "title": "名古屋市公告式条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.789Z",
-      "updated_at": "2026-05-10T01:48:23.789Z"
-    },
     {
       "id": "155303a0-139c-4bf5-be50-ce48b9903c33",
       "bill_id": "2b421272-d7fa-4cfd-89a8-b4c14c210d70",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.789Z",
-  "updated_at": "2026-05-10T01:48:23.789Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

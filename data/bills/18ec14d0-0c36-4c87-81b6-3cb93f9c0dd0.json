@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "0783254d-6efd-49de-882f-ef009ed34548",
-      "bill_id": "18ec14d0-0c36-4c87-81b6-3cb93f9c0dd0",
-      "difficulty_level": "normal",
-      "title": "令和8年度名古屋市介護保険特別会計予算",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.776Z",
-      "updated_at": "2026-05-10T01:48:23.776Z"
-    },
     {
       "id": "a9e1b5a3-0f30-4a32-8425-d8f46f09b07e",
       "bill_id": "18ec14d0-0c36-4c87-81b6-3cb93f9c0dd0",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.776Z",
-  "updated_at": "2026-05-10T01:48:23.776Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

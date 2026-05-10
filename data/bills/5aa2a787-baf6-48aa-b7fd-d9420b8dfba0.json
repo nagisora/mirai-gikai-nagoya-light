@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-child-education"
+  ],
   "bill_contents": [
-    {
-      "id": "3635bb1a-b138-40e6-8ede-8a0bfc6d92c3",
-      "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
-      "difficulty_level": "normal",
-      "title": "民生委員・児童委員及び保護司の選任に係る地域の負担軽減に関する意見書",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.870Z",
-      "updated_at": "2026-05-10T01:48:23.870Z"
-    },
     {
       "id": "d894db27-ad96-46d9-9348-233040c13b71",
       "bill_id": "5aa2a787-baf6-48aa-b7fd-d9420b8dfba0",
@@ -120,5 +112,5 @@
     }
   ],
   "created_at": "2026-05-10T01:48:23.870Z",
-  "updated_at": "2026-05-10T01:51:16.318Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

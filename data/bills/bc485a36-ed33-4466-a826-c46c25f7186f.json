@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "0e5c8a4a-37e6-4c0f-b4ae-de1a4cc499a6",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.833Z",
       "updated_at": "2026-05-10T01:48:23.833Z"
-    },
-    {
-      "id": "b9cbd13d-57bf-4e07-9d2e-e6cf012bb732",
-      "bill_id": "bc485a36-ed33-4466-a826-c46c25f7186f",
-      "difficulty_level": "hard",
-      "title": "名古屋市スポーツトレーニングセンター条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.833Z",
-      "updated_at": "2026-05-10T01:48:23.833Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.833Z",
-  "updated_at": "2026-05-10T01:48:23.833Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

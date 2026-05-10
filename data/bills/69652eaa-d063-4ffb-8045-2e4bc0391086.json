@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-environment"
+  ],
   "bill_contents": [
-    {
-      "id": "d69ff70c-77dd-4873-9bf6-90721e8a6305",
-      "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
-      "difficulty_level": "normal",
-      "title": "太陽光発電設備のリサイクル推進及び適正な廃棄処理に関する意見書",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.872Z",
-      "updated_at": "2026-05-10T01:48:23.872Z"
-    },
     {
       "id": "b457793f-7553-4c6a-90c6-aef51bf20560",
       "bill_id": "69652eaa-d063-4ffb-8045-2e4bc0391086",
@@ -120,5 +112,5 @@
     }
   ],
   "created_at": "2026-05-10T01:48:23.872Z",
-  "updated_at": "2026-05-10T01:51:16.318Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

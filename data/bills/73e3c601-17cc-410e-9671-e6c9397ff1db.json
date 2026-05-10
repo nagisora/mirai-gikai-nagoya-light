@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-governance"
+  ],
   "bill_contents": [
     {
       "id": "d0c0abc3-21a8-406d-9f1a-61b6184e9c00",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.859Z",
       "updated_at": "2026-05-10T01:48:23.859Z"
-    },
-    {
-      "id": "41415489-bbe7-4b0e-be07-44ee5f2797ce",
-      "bill_id": "73e3c601-17cc-410e-9671-e6c9397ff1db",
-      "difficulty_level": "hard",
-      "title": "契約の締結について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.859Z",
-      "updated_at": "2026-05-10T01:48:23.859Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.859Z",
-  "updated_at": "2026-05-10T01:48:23.859Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

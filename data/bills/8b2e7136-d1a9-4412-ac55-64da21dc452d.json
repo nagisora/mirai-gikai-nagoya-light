@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-child-education"
+  ],
   "bill_contents": [
-    {
-      "id": "9da5f489-2e77-4533-97a9-fcee2badc652",
-      "bill_id": "8b2e7136-d1a9-4412-ac55-64da21dc452d",
-      "difficulty_level": "normal",
-      "title": "教員によるわいせつ事案の多発を踏まえた早急な再発防止策を求める意見書の提出について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.869Z",
-      "updated_at": "2026-05-10T01:48:23.869Z"
-    },
     {
       "id": "70a4d0c8-58d7-43a0-a279-b82c6bab8ab8",
       "bill_id": "8b2e7136-d1a9-4412-ac55-64da21dc452d",
@@ -120,5 +112,5 @@
     }
   ],
   "created_at": "2026-05-10T01:48:23.869Z",
-  "updated_at": "2026-05-10T01:51:16.317Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

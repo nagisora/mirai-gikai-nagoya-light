@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-governance"
+  ],
   "bill_contents": [
-    {
-      "id": "08cbb365-af70-4f13-9866-acaa6377e0bb",
-      "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
-      "difficulty_level": "normal",
-      "title": "ゲノム編集技術応用食品の安全性審査の実施及び表示を含めた消費者への情報提供の在り方について更なる検討を求める意見書の提出について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.869Z",
-      "updated_at": "2026-05-10T01:48:23.869Z"
-    },
     {
       "id": "e9e23629-f3e5-4eac-8ee3-22c209c4c7a7",
       "bill_id": "10a97518-cd21-4459-b8cc-5f27d6b47185",
@@ -120,5 +112,5 @@
     }
   ],
   "created_at": "2026-05-10T01:48:23.869Z",
-  "updated_at": "2026-05-10T01:51:16.318Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

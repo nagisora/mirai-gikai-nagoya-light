@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-child-education"
+  ],
   "bill_contents": [
     {
       "id": "fb0f96f7-cea8-4b65-9d01-a37e424992d3",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.808Z",
       "updated_at": "2026-05-10T01:48:23.808Z"
-    },
-    {
-      "id": "2aad50fe-2e51-4713-86bd-24d641bd2e8e",
-      "bill_id": "da164a73-7a5d-4a95-9df0-a15d9d2dabc3",
-      "difficulty_level": "hard",
-      "title": "名古屋市立学校設置条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.808Z",
-      "updated_at": "2026-05-10T01:48:23.808Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.808Z",
-  "updated_at": "2026-05-10T01:48:23.808Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-urban"
+  ],
   "bill_contents": [
-    {
-      "id": "66a04d28-44f1-4718-885c-3991784ae5a2",
-      "bill_id": "6c9e0f26-8e0f-4726-b7ab-ae79b0205a57",
-      "difficulty_level": "normal",
-      "title": "土地の信託の一部変更について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.829Z",
-      "updated_at": "2026-05-10T01:48:23.829Z"
-    },
     {
       "id": "ba9cf167-ce94-4b50-ac3b-a6eb0fe7dfc3",
       "bill_id": "6c9e0f26-8e0f-4726-b7ab-ae79b0205a57",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.829Z",
-  "updated_at": "2026-05-10T01:48:23.829Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

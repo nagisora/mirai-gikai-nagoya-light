@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": "同意",
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-governance"
+  ],
   "bill_contents": [
-    {
-      "id": "229b25ee-aa5e-4903-a3e6-463f61b515b9",
-      "bill_id": "a81a62d4-3966-4709-ba63-c0a9f11c2435",
-      "difficulty_level": "normal",
-      "title": "教育委員会の委員選任について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.867Z",
-      "updated_at": "2026-05-10T01:48:23.867Z"
-    },
     {
       "id": "f8400bb2-0a63-4d27-a514-0e9fe8b65f69",
       "bill_id": "a81a62d4-3966-4709-ba63-c0a9f11c2435",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.867Z",
-  "updated_at": "2026-05-10T01:48:23.867Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

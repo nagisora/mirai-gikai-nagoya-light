@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "c1141154-5b68-4344-88fa-3c0529d69edc",
-      "bill_id": "9f40b437-a584-4d26-ab6f-c5c83fb83239",
-      "difficulty_level": "normal",
-      "title": "令和7年度名古屋市市場及びと畜場特別会計補正予算（第2号）",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.851Z",
-      "updated_at": "2026-05-10T01:48:23.851Z"
-    },
     {
       "id": "f6b89213-51a6-48fc-af9a-631d038502fb",
       "bill_id": "9f40b437-a584-4d26-ab6f-c5c83fb83239",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.851Z",
-  "updated_at": "2026-05-10T01:48:23.851Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

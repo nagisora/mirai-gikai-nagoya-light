@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "02007769-2371-4c60-9ae2-1054ebc9dc86",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.825Z",
       "updated_at": "2026-05-10T01:48:23.825Z"
-    },
-    {
-      "id": "ee5f5fcc-ce4c-4480-971a-7c9a4025a627",
-      "bill_id": "326bec9e-f0b0-4e36-91fd-9bbbc9f7a2dc",
-      "difficulty_level": "hard",
-      "title": "名古屋市揚輝荘条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.825Z",
-      "updated_at": "2026-05-10T01:48:23.825Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.825Z",
-  "updated_at": "2026-05-10T01:48:23.825Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

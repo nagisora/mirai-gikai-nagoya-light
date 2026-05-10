@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-child-education"
+  ],
   "bill_contents": [
-    {
-      "id": "aaf03a64-3543-4d0c-9caa-725826fd071a",
-      "bill_id": "503cf7d2-3d04-45ab-97bc-920130a8cf98",
-      "difficulty_level": "normal",
-      "title": "名古屋市私立高等学校授業料補助に関する条例の廃止について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.814Z",
-      "updated_at": "2026-05-10T01:48:23.814Z"
-    },
     {
       "id": "4b9a260b-660c-4ff1-8fdb-dddad2cdfeb9",
       "bill_id": "503cf7d2-3d04-45ab-97bc-920130a8cf98",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.814Z",
-  "updated_at": "2026-05-10T01:48:23.814Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

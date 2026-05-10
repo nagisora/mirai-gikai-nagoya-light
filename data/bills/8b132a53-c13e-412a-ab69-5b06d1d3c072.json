@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "26e3f542-8e13-4121-b5b6-1ca34a8f5e4d",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.844Z",
       "updated_at": "2026-05-10T01:48:23.844Z"
-    },
-    {
-      "id": "676b7ccb-7bf1-40dc-9e40-e165811eed3d",
-      "bill_id": "8b132a53-c13e-412a-ab69-5b06d1d3c072",
-      "difficulty_level": "hard",
-      "title": "名古屋市国際展示場条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.844Z",
-      "updated_at": "2026-05-10T01:48:23.844Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.844Z",
-  "updated_at": "2026-05-10T01:48:23.844Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

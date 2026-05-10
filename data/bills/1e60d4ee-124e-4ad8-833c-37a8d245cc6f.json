@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-governance"
+  ],
   "bill_contents": [
-    {
-      "id": "f1db84d1-8fa0-40a7-91f9-979fe0de8823",
-      "bill_id": "1e60d4ee-124e-4ad8-833c-37a8d245cc6f",
-      "difficulty_level": "normal",
-      "title": "包括外部監査契約の締結について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.795Z",
-      "updated_at": "2026-05-10T01:48:23.795Z"
-    },
     {
       "id": "fd4fbfac-4c78-4fe2-baed-8c62edfd25b1",
       "bill_id": "1e60d4ee-124e-4ad8-833c-37a8d245cc6f",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.795Z",
-  "updated_at": "2026-05-10T01:48:23.795Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

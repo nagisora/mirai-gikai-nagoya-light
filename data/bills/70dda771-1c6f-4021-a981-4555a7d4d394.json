@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "a833bb66-8c3e-4d3c-82c0-233914dc7832",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.798Z",
       "updated_at": "2026-05-10T01:48:23.798Z"
-    },
-    {
-      "id": "fdc65cf7-e543-4ba3-a57f-be23eefc48f2",
-      "bill_id": "70dda771-1c6f-4021-a981-4555a7d4d394",
-      "difficulty_level": "hard",
-      "title": "名古屋市地区会館条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.798Z",
-      "updated_at": "2026-05-10T01:48:23.798Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.798Z",
-  "updated_at": "2026-05-10T01:48:23.798Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

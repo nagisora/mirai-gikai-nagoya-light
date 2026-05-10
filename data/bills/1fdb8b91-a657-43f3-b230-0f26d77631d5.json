@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
-    {
-      "id": "6d898116-cda3-4137-b9f9-3010f9ac254a",
-      "bill_id": "1fdb8b91-a657-43f3-b230-0f26d77631d5",
-      "difficulty_level": "normal",
-      "title": "名古屋市民会館整備運営事業者選定審議会条例の制定について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.819Z",
-      "updated_at": "2026-05-10T01:48:23.819Z"
-    },
     {
       "id": "4435cf45-4a6e-41c7-941b-ca1a5277b66b",
       "bill_id": "1fdb8b91-a657-43f3-b230-0f26d77631d5",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.819Z",
-  "updated_at": "2026-05-10T01:48:23.819Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

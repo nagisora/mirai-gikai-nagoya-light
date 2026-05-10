@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": "承認",
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "65cfdf9d-b094-4009-9135-5b6015da1bb8",
-      "bill_id": "ca1fd0a0-5cb8-407e-b447-5fd5d73a1777",
-      "difficulty_level": "normal",
-      "title": "補正予算に関する専決処分について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.865Z",
-      "updated_at": "2026-05-10T01:48:23.865Z"
-    },
     {
       "id": "bbe9434b-cc56-4b13-8069-34165406d189",
       "bill_id": "ca1fd0a0-5cb8-407e-b447-5fd5d73a1777",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.865Z",
-  "updated_at": "2026-05-10T01:48:23.865Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

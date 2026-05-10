@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "1520b2a5-f2e6-42ed-bfec-f68fd9a19342",
-      "bill_id": "659485d4-a9fc-45b1-af7e-e7fb6dbacbea",
-      "difficulty_level": "normal",
-      "title": "令和8年度名古屋市自動車運送事業会計予算",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.787Z",
-      "updated_at": "2026-05-10T01:48:23.787Z"
-    },
     {
       "id": "e1da45ed-c10f-4ad7-be84-7f86a99635d7",
       "bill_id": "659485d4-a9fc-45b1-af7e-e7fb6dbacbea",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.787Z",
-  "updated_at": "2026-05-10T01:48:23.787Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

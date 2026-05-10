@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": "修正可決",
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "4fcc8dbf-5b62-427f-b9be-e1832c29446c",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.832Z",
       "updated_at": "2026-05-10T01:48:23.832Z"
-    },
-    {
-      "id": "77506478-8629-4ccf-91f8-52a4bc26c7bc",
-      "bill_id": "4a30d90a-e95b-4899-b571-e243a9f4e7a0",
-      "difficulty_level": "hard",
-      "title": "名古屋市体育館条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.832Z",
-      "updated_at": "2026-05-10T01:48:23.832Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.832Z",
-  "updated_at": "2026-05-10T01:48:23.832Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "cf9f6a46-0566-4fcf-9821-b8c2efbf0e43",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.823Z",
       "updated_at": "2026-05-10T01:48:23.823Z"
-    },
-    {
-      "id": "2bfc0d4f-0f21-4212-acce-f9877f9da8a5",
-      "bill_id": "60cb6025-99a3-403d-893c-a967cc222a1a",
-      "difficulty_level": "hard",
-      "title": "名古屋市短歌会館条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.823Z",
-      "updated_at": "2026-05-10T01:48:23.823Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.823Z",
-  "updated_at": "2026-05-10T01:48:23.823Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

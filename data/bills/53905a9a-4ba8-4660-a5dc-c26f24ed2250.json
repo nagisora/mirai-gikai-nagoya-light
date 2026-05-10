@@ -5,15 +5,17 @@
   "slug": null,
   "status": "approved",
   "status_note": "修正可決",
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-culture"
+  ],
   "bill_contents": [
     {
       "id": "9548807b-8a06-4281-b27d-f43e7c38d00d",
@@ -24,19 +26,9 @@
       "content": "",
       "created_at": "2026-05-10T01:48:23.823Z",
       "updated_at": "2026-05-10T01:48:23.823Z"
-    },
-    {
-      "id": "62ab9c9d-585c-4742-a127-5611f5e2e48d",
-      "bill_id": "53905a9a-4ba8-4660-a5dc-c26f24ed2250",
-      "difficulty_level": "hard",
-      "title": "名古屋市旧川上貞奴邸条例の一部改正について",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.823Z",
-      "updated_at": "2026-05-10T01:48:23.823Z"
     }
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.823Z",
-  "updated_at": "2026-05-10T01:48:23.823Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }

@@ -5,26 +5,18 @@
   "slug": null,
   "status": "approved",
   "status_note": null,
-  "publish_status": "draft",
-  "council_session_id": null,
+  "publish_status": "published",
+  "council_session_id": "nagoya-r8-feb-2026",
   "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
   "share_thumbnail_url": null,
   "pdf_url": null,
-  "tag_ids": [],
+  "tag_ids": [
+    "nagoya-tag-finance"
+  ],
   "bill_contents": [
-    {
-      "id": "f673f596-afa9-4f02-bd18-f82253c2ef3d",
-      "bill_id": "f3cc294a-7289-40a1-ba42-077da7dddf7b",
-      "difficulty_level": "normal",
-      "title": "令和8年度名古屋市墓地公園整備事業特別会計予算",
-      "summary": "",
-      "content": "",
-      "created_at": "2026-05-10T01:48:23.781Z",
-      "updated_at": "2026-05-10T01:48:23.781Z"
-    },
     {
       "id": "07ac9684-165f-44ae-88c0-860752ed915f",
       "bill_id": "f3cc294a-7289-40a1-ba42-077da7dddf7b",
@@ -38,5 +30,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.781Z",
-  "updated_at": "2026-05-10T01:48:23.781Z"
+  "updated_at": "2026-05-11T12:00:00.000Z"
 }
