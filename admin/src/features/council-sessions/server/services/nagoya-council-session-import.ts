@@ -18,6 +18,8 @@ const KNOWN_ACTIVITY_URLS = [
 ];
 
 const execFileAsync = promisify(execFile);
+const PDFTOTEXT_MISSING_MESSAGE =
+  "pdftotext が見つかりません。定例会概要PDFから会期を取得するには poppler-utils をインストールしてください。";
 
 type DateConfidence = "actual" | "planned" | "existing" | "missing";
 
@@ -283,9 +285,22 @@ async function pdfToText(pdfUrl: string) {
       );
     }
     await fs.writeFile(pdfPath, Buffer.from(await res.arrayBuffer()));
-    const { stdout } = await execFileAsync("pdftotext", [pdfPath, "-"], {
-      maxBuffer: 1024 * 1024 * 10,
-    });
+    let stdout: string;
+    try {
+      ({ stdout } = await execFileAsync("pdftotext", [pdfPath, "-"], {
+        maxBuffer: 1024 * 1024 * 10,
+      }));
+    } catch (error) {
+      if (
+        typeof error === "object" &&
+        error !== null &&
+        "code" in error &&
+        error.code === "ENOENT"
+      ) {
+        throw new Error(PDFTOTEXT_MISSING_MESSAGE);
+      }
+      throw error;
+    }
     return stdout;
   } finally {
     await fs.rm(tmpDir, { recursive: true, force: true });
@@ -293,6 +308,7 @@ async function pdfToText(pdfUrl: string) {
 }
 
 async function extractPdfDates(sessions: OverviewSession[]) {
+  const errors: string[] = [];
   const entries = await Promise.all(
     sessions.map(async (session) => {
       try {
@@ -302,12 +318,18 @@ async function extractPdfDates(sessions: OverviewSession[]) {
         const text = await pdfToText(pdfUrl);
         const dateSource = extractDateSourceFromPdfText(text, session, pdfUrl);
         return dateSource ? ([session.id, dateSource] as const) : null;
-      } catch {
+      } catch (error) {
+        if (error instanceof Error) {
+          errors.push(`${session.name}: ${error.message}`);
+        }
         return null;
       }
     })
   );
-  return new Map(entries.filter((entry) => entry !== null));
+  return {
+    dates: new Map(entries.filter((entry) => entry !== null)),
+    errors: [...new Set(errors)],
+  };
 }
 
 function mergeDateMaps(...maps: Array<Map<string, DateSource>>) {
@@ -450,7 +472,7 @@ export async function previewNagoyaCouncilSessionImport(): Promise<NagoyaCouncil
   const dateSources = mergeDateMaps(
     extractAnnualScheduleDates(annualHtml),
     ...activityHtmls.map(([url, html]) => extractActivityDates(html, url)),
-    pdfDates
+    pdfDates.dates
   );
   const now = new Date().toISOString();
 
@@ -522,7 +544,10 @@ export async function previewNagoyaCouncilSessionImport(): Promise<NagoyaCouncil
 
   return {
     candidates,
-    errors: validateSessions(writableSessions, existingSessions),
+    errors: [
+      ...pdfDates.errors,
+      ...validateSessions(writableSessions, existingSessions),
+    ],
   };
 }
 

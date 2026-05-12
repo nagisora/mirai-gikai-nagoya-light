@@ -23,6 +23,8 @@ const root = path.resolve(__dirname, "..");
 const sessionsDir = path.join(root, "data", "council-sessions");
 const apply = process.argv.includes("--apply");
 const execFileAsync = promisify(execFile);
+const PDFTOTEXT_MISSING_MESSAGE =
+  "pdftotext is not installed. Install poppler-utils to read council session dates from official PDF files.";
 
 function normalizeText(value) {
   return value
@@ -224,9 +226,17 @@ async function pdfToText(pdfUrl) {
       throw new Error(`Failed to fetch ${pdfUrl}: ${res.status} ${res.statusText}`);
     }
     await fs.writeFile(pdfPath, Buffer.from(await res.arrayBuffer()));
-    const { stdout } = await execFileAsync("pdftotext", [pdfPath, "-"], {
-      maxBuffer: 1024 * 1024 * 10,
-    });
+    let stdout;
+    try {
+      ({ stdout } = await execFileAsync("pdftotext", [pdfPath, "-"], {
+        maxBuffer: 1024 * 1024 * 10,
+      }));
+    } catch (error) {
+      if (error?.code === "ENOENT") {
+        throw new Error(PDFTOTEXT_MISSING_MESSAGE);
+      }
+      throw error;
+    }
     return stdout;
   } finally {
     await fs.rm(tmpDir, { recursive: true, force: true });
@@ -234,6 +244,7 @@ async function pdfToText(pdfUrl) {
 }
 
 async function extractPdfDates(sessions) {
+  const errors = [];
   const entries = await Promise.all(
     sessions.map(async (session) => {
       try {
@@ -243,12 +254,16 @@ async function extractPdfDates(sessions) {
         const text = await pdfToText(pdfUrl);
         const dateSource = extractDateSourceFromPdfText(text, session, pdfUrl);
         return dateSource ? [session.id, dateSource] : null;
-      } catch {
+      } catch (error) {
+        errors.push(`${session.name}: ${error.message}`);
         return null;
       }
     }),
   );
-  return new Map(entries.filter((entry) => entry !== null));
+  return {
+    dates: new Map(entries.filter((entry) => entry !== null)),
+    errors: [...new Set(errors)],
+  };
 }
 
 function mergeDateMaps(...maps) {
@@ -367,7 +382,7 @@ const pdfDates = await extractPdfDates(overviewSessions);
 const dateSources = mergeDateMaps(
   extractAnnualScheduleDates(annualHtml),
   ...activityHtmls.map(([url, html]) => extractActivityDates(html, url)),
-  pdfDates,
+  pdfDates.dates,
 );
 const now = new Date().toISOString();
 const candidates = overviewSessions.map((base) => {
@@ -413,6 +428,9 @@ const writable = candidates
   .filter((candidate) => candidate.next && candidate.status !== "needs_review")
   .map((candidate) => candidate.next);
 const errors = validateSessions(writable, existingSessions);
+for (const error of pdfDates.errors) {
+  console.error(`pdf-error ${error}`);
+}
 for (const error of errors) {
   console.error(`validation-error ${error}`);
 }
@@ -426,7 +444,7 @@ for (const candidate of candidates) {
   );
 }
 
-if (errors.length > 0) {
+if (pdfDates.errors.length > 0 || errors.length > 0) {
   process.exit(1);
 }
 

@@ -85,10 +85,17 @@ export function NagoyaCouncilSessionImportPanel() {
   const [isLoading, setIsLoading] = useState(false);
   const [isApplying, setIsApplying] = useState(false);
 
-  const applicableCandidates = useMemo(
-    () => preview?.candidates.filter(canApply) ?? [],
-    [preview]
-  );
+  const canApplySelected = useMemo(() => {
+    if (!preview) return false;
+    return preview.candidates.some((candidate) => {
+      if (!selectedIds.includes(candidate.id)) return false;
+      if (canApply(candidate)) return true;
+      return (
+        canApplyWithManualDate(candidate) &&
+        Boolean(manualDates[candidate.id]?.start_date)
+      );
+    });
+  }, [manualDates, preview, selectedIds]);
 
   const loadPreview = async () => {
     setIsLoading(true);
@@ -193,7 +200,7 @@ export function NagoyaCouncilSessionImportPanel() {
               isLoading ||
               isApplying ||
               selectedIds.length === 0 ||
-              applicableCandidates.length === 0
+              !canApplySelected
             }
           >
             {isApplying ? "保存中..." : "選択した定例会を保存"}
