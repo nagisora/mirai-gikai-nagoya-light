@@ -9,9 +9,11 @@
 // ── 静的ルート ──────────────────────────────────────
 export const routes = {
   bills: () => "/bills" as const,
+  billImport: () => "/bills/import" as const,
   billNew: () => "/bills/new" as const,
   tags: () => "/tags" as const,
   councilSessions: () => "/council-sessions" as const,
+  councilSessionImport: () => "/council-sessions/import" as const,
   factions: () => "/factions" as const,
   aiCollection: () => "/ai-collection" as const,
 

@@ -1,4 +1,4 @@
-import { Plus } from "lucide-react";
+import { Download, Plus } from "lucide-react";
 import Link from "next/link";
 
 import { Button } from "@/components/ui/button";
@@ -43,6 +43,12 @@ export async function BillList({
       <div className="mb-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3">
         <div className="text-sm text-gray-600">{bills.length}件の議案</div>
         <div className="flex items-center gap-2">
+          <Link href={routes.billImport()}>
+            <Button variant="outline">
+              <Download className="h-4 w-4 mr-1" />
+              公式取り込み
+            </Button>
+          </Link>
           <Link href={routes.billNew()}>
             <Button>
               <Plus className="h-4 w-4 mr-1" />
