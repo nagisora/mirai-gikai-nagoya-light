@@ -7,6 +7,7 @@ import {
   getAllCouncilSessions,
   saveBill,
 } from "@mirai-gikai/data";
+import { assertNagoyaOfficialFetchUrl } from "@/lib/assert-nagoya-official-fetch-url";
 
 const MAYOR_BILLS_INDEX_URL =
   "https://www.city.nagoya.jp/shikai/shingi/1030858/1030859/index.html";
@@ -123,6 +124,7 @@ function buildBillKey(
 }
 
 async function fetchText(url: string) {
+  assertNagoyaOfficialFetchUrl(url);
   const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);

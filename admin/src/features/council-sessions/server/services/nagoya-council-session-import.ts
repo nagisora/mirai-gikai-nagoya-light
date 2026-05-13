@@ -8,6 +8,7 @@ import {
   getAllCouncilSessions,
   saveCouncilSession,
 } from "@mirai-gikai/data";
+import { assertNagoyaOfficialFetchUrl } from "@/lib/assert-nagoya-official-fetch-url";
 
 const OVERVIEW_INDEX_URL =
   "https://www.city.nagoya.jp/shikai/kouhou/1031662/index.html";
@@ -99,6 +100,7 @@ function normalizePdfText(value: string) {
 }
 
 async function fetchText(url: string) {
+  assertNagoyaOfficialFetchUrl(url);
   const res = await fetch(url, { cache: "no-store" });
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
@@ -278,6 +280,7 @@ async function pdfToText(pdfUrl: string) {
   const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), "nagoya-session-"));
   const pdfPath = path.join(tmpDir, "session.pdf");
   try {
+    assertNagoyaOfficialFetchUrl(pdfUrl);
     const res = await fetch(pdfUrl, { cache: "no-store" });
     if (!res.ok) {
       throw new Error(

@@ -26,6 +26,28 @@ const execFileAsync = promisify(execFile);
 const PDFTOTEXT_MISSING_MESSAGE =
   "pdftotext is not installed. Install poppler-utils to read council session dates from official PDF files.";
 
+/** admin/src/lib/assert-nagoya-official-fetch-url.ts と同じ方針（変更時は両方直す） */
+const NAGOYA_OFFICIAL_HOST = "www.city.nagoya.jp";
+
+function assertNagoyaOfficialFetchUrl(urlString) {
+  let url;
+  try {
+    url = new URL(urlString);
+  } catch {
+    throw new Error(`許可されていない URL です（解析できません）: ${urlString}`);
+  }
+  if (url.protocol !== "https:") {
+    throw new Error(
+      `許可されていない URL です（HTTPS のみ許可）: ${urlString}`,
+    );
+  }
+  if (url.hostname !== NAGOYA_OFFICIAL_HOST) {
+    throw new Error(
+      `許可されていない URL です（${NAGOYA_OFFICIAL_HOST} のみ許可）: ${urlString}`,
+    );
+  }
+}
+
 function normalizeText(value) {
   return value
     .replace(/<script[\s\S]*?<\/script>/gi, "")
@@ -51,6 +73,7 @@ function normalizePdfText(value) {
 }
 
 async function fetchText(url) {
+  assertNagoyaOfficialFetchUrl(url);
   const res = await fetch(url);
   if (!res.ok) {
     throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
@@ -221,6 +244,7 @@ async function pdfToText(pdfUrl) {
   const tmpDir = await fs.mkdtemp(path.join(os.tmpdir(), "nagoya-session-"));
   const pdfPath = path.join(tmpDir, "session.pdf");
   try {
+    assertNagoyaOfficialFetchUrl(pdfUrl);
     const res = await fetch(pdfUrl);
     if (!res.ok) {
       throw new Error(`Failed to fetch ${pdfUrl}: ${res.status} ${res.statusText}`);
