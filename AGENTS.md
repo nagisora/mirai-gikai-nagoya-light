@@ -90,3 +90,19 @@ src/features/{feature}/
 - Fork 直後は **Web 側のユーザー発の AI 機能（チャット・インタビュー等）を全て無効** にしています。軽量な fork ベースとして立ち上げやすくするためです。
 - **Admin 側の AI 情報収集機能（`ai-collection`）はローカル起動前提で残しています**。議案データの初期整備に活用してください。
 - 後から Web 側に AI 機能を復活させたい場合は、本家 `mirai-gikai-kawasaki` 等の実装を参考にしてください。
+
+## Cursor Cloud specific instructions
+
+### サービス起動
+- `pnpm dev` で web (port 3000) と admin (port 3001) を並列起動する。`.env` が必要（初回は `cp .env.example .env`）。
+- 外部サービス（DB・Docker等）は不要。`data/` 配下の JSON ファイルのみで動作する。
+
+### 品質チェックコマンド
+- lint: `pnpm lint`（Biome format + lint、warnings は許容、exit 0 なら OK）
+- typecheck: `pnpm typecheck`
+- test: `pnpm test`（Vitest、全ワークスペース横断）
+
+### 注意点
+- pnpm v10 の build script 承認警告が出るが、Next.js 15 + Turbopack の dev モードでは esbuild / sharp のネイティブビルドが無くても動作する。`pnpm rebuild` は不要。
+- admin は自動的に `/bills` にリダイレクトする（HTTP 307）。
+- `postinstall` で `simple-git-hooks` が設定される。コミット時に `lint-staged`（Biome fix）が自動実行される。
