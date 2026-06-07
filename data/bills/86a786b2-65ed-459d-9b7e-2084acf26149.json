@@ -7,7 +7,7 @@
   "status_note": null,
   "publish_status": "published",
   "council_session_id": "nagoya-r8-feb-2026",
-  "is_featured": true,
+  "is_featured": false,
   "published_at": "2026-01-01",
   "submitted_date": null,
   "thumbnail_url": null,
@@ -40,5 +40,5 @@
   ],
   "faction_stances": [],
   "created_at": "2026-05-10T01:48:23.799Z",
-  "updated_at": "2026-05-11T17:00:00.000Z"
+  "updated_at": "2026-06-07T14:00:00.000Z"
 }
