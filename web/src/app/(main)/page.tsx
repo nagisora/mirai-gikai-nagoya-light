@@ -4,7 +4,6 @@ import { About } from "@/components/top/about";
 import { Hero } from "@/components/top/hero";
 import { TeamMirai } from "@/components/top/team-mirai";
 import { BillDisclaimer } from "@/features/bills/client/components/bill-detail/bill-disclaimer";
-import { BillsByTagSection } from "@/features/bills/server/components/bills-by-tag-section";
 import { FeaturedBillSection } from "@/features/bills/server/components/featured-bill-section";
 import { PreviousSessionSection } from "@/features/bills/server/components/previous-session-section";
 import { loadHomeData } from "@/features/bills/server/loaders/load-home-data";
@@ -13,12 +12,10 @@ import { CurrentCouncilSession } from "@/features/council-sessions/client/compon
 import { getJapanTime } from "@/lib/utils/date";
 
 export default async function Home() {
-  const { billsByTag, featuredBills, previousSessionData, activeSessionSlug } =
+  const { featuredBills, previousSessionData, activeSessionSlug } =
     await loadHomeData();
 
   const currentSession = await getCurrentCouncilSession(getJapanTime());
-
-  const featuredBillIds = new Set(featuredBills.map((b) => b.id));
 
   return (
     <>
@@ -29,11 +26,8 @@ export default async function Home() {
       <Container className="">
         <div className="py-10">
           <main className="flex flex-col gap-16">
-            <FeaturedBillSection bills={featuredBills} />
-
-            <BillsByTagSection
-              billsByTag={billsByTag}
-              featuredBillIds={featuredBillIds}
+            <FeaturedBillSection
+              bills={featuredBills}
               sessionSlug={activeSessionSlug}
             />
           </main>

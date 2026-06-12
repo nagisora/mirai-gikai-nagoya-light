@@ -1,14 +1,20 @@
+import { ChevronRight } from "lucide-react";
 import type { Route } from "next";
 import Link from "next/link";
+import { Card, CardContent } from "@/components/ui/card";
 import { routes } from "@/lib/routes";
 import type { BillWithContent } from "../../shared/types";
 import { BillCard } from "../../client/components/bill-list/bill-card";
 
 interface FeaturedBillSectionProps {
   bills: BillWithContent[];
+  sessionSlug?: string | null;
 }
 
-export function FeaturedBillSection({ bills }: FeaturedBillSectionProps) {
+export function FeaturedBillSection({
+  bills,
+  sessionSlug,
+}: FeaturedBillSectionProps) {
   if (bills.length === 0) {
     return null;
   }
@@ -33,6 +39,22 @@ export function FeaturedBillSection({ bills }: FeaturedBillSectionProps) {
           </Link>
         ))}
       </div>
+
+      {sessionSlug && (
+        <Link
+          href={routes.sessionBills(sessionSlug) as Route}
+          className="block"
+        >
+          <Card className="border border-black hover:bg-gray-50 transition-colors cursor-pointer">
+            <CardContent className="flex items-center justify-between py-4 px-5">
+              <span className="font-bold text-base text-black">
+                今回の定例会の議案をすべて見る
+              </span>
+              <ChevronRight className="h-5 w-5 text-gray-400 flex-shrink-0" />
+            </CardContent>
+          </Card>
+        </Link>
+      )}
     </section>
   );
 }

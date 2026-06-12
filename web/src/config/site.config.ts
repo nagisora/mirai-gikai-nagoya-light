@@ -42,8 +42,8 @@ export const siteConfig = {
    * 利用規約や問い合わせ先に使用します。
    */
   operator: {
-    name: "Gondow" as string,
-    contactUrl: "https://x.com/GondowTakashi" as string,
+    name: "nagisora" as string,
+    contactUrl: "https://x.com/nagisora_" as string,
     /** 利用規約の準拠法・管轄裁判所（第一審の専属的合意管轄） */
     jurisdiction: "名古屋地方裁判所" as string,
   },
